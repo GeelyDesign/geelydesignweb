@@ -1,0 +1,18 @@
+name: Flex
+markdown: redcarpet
+highlighter: pygments
+exclude: ["LICENSE.txt", "README.md"]
+
+baseurl: ""
+permalink: /:title/
+
+
+# Plugins
+gems: 
+  - jekyll-multiple-languages-plugin
+
+
+# jekyll-multiple-languages-plugin settings:
+languages: ["en", "it", "es"]
+
+exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
