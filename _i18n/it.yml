@@ -1,10 +1,14 @@
 global:
-  tagline: Italiano
-  about: Riquardo
-  twitter: Twitter
-  github: GitHub
+  twitter: https://twitter.com/ThemeintheBox
   facebook: https://www.facebook.com/ThemeInTheBox/
+
 langs:
   it: Italiano
   en: English
   es: Español
+
+footer:
+  title: Di Logo
+  text: © 2016 Di Corpo. Designed and Developed by
+  link: http://www.themeinthebox.com
+  linktext: ThemeintheBox.com

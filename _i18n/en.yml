@@ -1,10 +1,36 @@
 global:
-  tagline: English
-  about: About
-  twitter: Twitter
-  github: GitHub
+  twitter: https://twitter.com/ThemeintheBox
   facebook: https://www.facebook.com/ThemeInTheBox/
+
 langs:
   it: Italiano
   en: English
   es: Español
+
+header:
+  image: https://unsplash.it/2560/1707?image=961
+  pretitle: In the hall of the
+  title: Mountain King
+  text: This is a simple hero unit, a simple jumbotron-style component for<br>
+        calling extra attention to featured content or information.
+  buttons: 
+    blue:
+      url: '#'
+      text: Learn more
+    red:
+      url: http://www.themeinthebox.com/ourtheme/mountain-king-bootstrap-template/
+      text: Download
+
+positions:
+  title: Available positions
+
+about:
+  title: Ligula Mattis Ornare Ultricies
+  subtitle: Pellentesque Cursus Amet Parturient Etiam
+  text: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+
+footer:
+  title: Your Logo
+  text: © 2016 Your Company. Designed and Developed by
+  link: http://www.themeinthebox.com
+  linktext: ThemeintheBox.com

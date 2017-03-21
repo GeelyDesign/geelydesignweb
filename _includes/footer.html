@@ -1,24 +1,23 @@
 <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                {% tf footer.md %}
-                <h3>Your Logo</h3>
-                <p>© 2016 Your Company. Designed and Developed by <a target="_blank" href="http://www.themeinthebox.com">ThemeintheBox.com</a></p>
-            </div>
-            <div class="col-md-4">
-                <p class="text-right social">
-                    <a href="{% t global.facebook %}" target="_blank">
-                      <i class="typcn typcn-social-facebook-circular"></i>
-                    </a>
-                    <a href="https://twitter.com/ThemeintheBox" target="_blank">
-                      <i class="typcn typcn-social-twitter-circular"></i>
-                    </a>
-                    <i class="typcn typcn-social-tumbler-circular"></i>
-                    <i class="typcn typcn-social-github-circular"></i>
-                    <i class="typcn typcn-social-dribbble-circular"></i>
-                </p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>{% t footer.title %}</h3>
+                    <p>{% t footer.text %} <a href="{% t footer.link %}" target="_blank">{% t footer.linktext %}</a></p>
+                </div>
+                <div class="col-md-4">
+                    <p class="text-right social">
+                        <a href="{% t global.facebook %}" target="_blank">
+                          <i class="typcn typcn-social-facebook-circular"></i>
+                        </a>
+                        <a href="https://twitter.com/ThemeintheBox" target="_blank">
+                          <i class="typcn typcn-social-twitter-circular"></i>
+                        </a>
+                        <i class="typcn typcn-social-tumbler-circular"></i>
+                        <i class="typcn typcn-social-github-circular"></i>
+                        <i class="typcn typcn-social-dribbble-circular"></i>
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>

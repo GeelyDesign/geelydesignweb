@@ -1,0 +1,43 @@
+<header id="home">
+        <div class="container-fluid" style="background-image: url('{% t header.image %}');">
+            <!-- change the image in style.css to the class header .container-fluid [approximately row 50] -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-10">
+                        <a href="#" class="thumbnail logo">
+                            <img src="/assets/img/your_logo.png" alt="" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-md-1 col-md-offset-8 col-xs-2 text-center">
+                        <div class="menu-btn">
+                            <span class="hamburger">
+                                <i class="fa fa-bars"></i>
+                            </span>
+                        </div>
+                        {% if site.lang == 'en' %}
+                        <a href="/sv">
+                        {% else %}
+                        <a href="../">
+                        {% endif %}
+                            <i class="fa fa-flag"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="jumbotron">
+                    <h1><small>{% t header.pretitle %}</small><br>
+                    <strong>{% t header.title %}</strong></h1>
+                    <p>
+                      {% t header.text %}
+                    </p>
+                    <p>
+                        <a class="btn btn-primary btn-lg" href="{% t header.buttons.blue.url %}" role="button">
+                            {% t header.buttons.blue.text %}
+                        </a> 
+                        <a target="_blank" href="{% t header.buttons.red.url %}" class="btn btn-lg btn-danger" role="button">
+                            {% t header.buttons.red.text %}
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
