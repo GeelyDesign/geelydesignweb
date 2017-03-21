@@ -7,8 +7,51 @@ langs:
   en: English
   es: Español
 
+header:
+  image: https://unsplash.it/2560/1707?image=961
+  pretitle: In the hall of the
+  title: Mountain King
+  text: This is a simple hero unit, a simple jumbotron-style component for<br>
+        calling extra attention to featured content or information.
+  buttons: 
+    blue:
+      url: '#'
+      text: Learn more
+    red:
+      url: http://www.themeinthebox.com/ourtheme/mountain-king-bootstrap-template/
+      text: Download
+
+positions:
+  title: Available positions
+
+about:
+  title: Ligula Mattis Ornare Ultricies
+  subtitle: Pellentesque Cursus Amet Parturient Etiam
+  text: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+
+news:
+  title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  text: <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec sed odio dui. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.</p>
+        <p>Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue.</p>
+  button:
+    text: Take a look
+    url: '#'
+  image: https://unsplash.it/1200/1200?image=839
+  imageurl: '#'
+
+history:
+  lead: Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+  text: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+  title: Fermentum Dapibus
+  small: Nibh Etiam Risus Bibendum<br>
+         Nullam id dolor id nibh ultricies vehicula ut id elit.
+
+contact:
+  title: Maecenas sed diam eget risus varius<br> blandit sit amet non magna.
+  text: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
 footer:
-  title: El Logo
-  text: © 2016 El Corpo. Designed and Developed by
+  title: Your Logo
+  text: © 2016 Your Company. Designed and Developed by
   link: http://www.themeinthebox.com
   linktext: ThemeintheBox.com
