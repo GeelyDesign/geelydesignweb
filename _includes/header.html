@@ -1,0 +1,39 @@
+<header id="home">
+    <div class="container-fluid" style="background-image: url('{{ page.header_image }}');">
+        <!-- change the image in style.css to the class header .container-fluid [approximately row 50] -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-10">
+                    <a href="#" class="thumbnail logo">
+                        <img src="/assets/img/your_logo.png" alt="" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-md-1 col-md-offset-8 col-xs-2 text-center">
+                    <div class="menu-btn">
+                        <span class="hamburger">
+                            <i class="fa fa-bars"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="jumbotron">
+                <h1><small>{{ page.header_pretitle }}</small><br>
+                <strong>{{ page.header_title }}</strong></h1>
+                <p>
+                  {{ page.header_text }}
+                </p>
+                {% for item in page.header_buttons %}
+                    {{ item.text }}
+                {% endfor %}
+                <p>
+                    <a class="btn btn-primary btn-lg" href="{{ page.header_btn_learn_href }}" role="button">
+                        {{ page.header_btn_learn_text }}
+                    </a> 
+                    <a target="_blank" href="{{ page.header_btn_dl_href }}" class="btn btn-lg btn-danger" role="button">
+                        {{ page.header_btn_dl_text }}
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</header>
