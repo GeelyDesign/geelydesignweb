@@ -1,6 +1,8 @@
 name: Geely Design Web
 markdown: kramdown
 highlighter: pygments
+include:
+  - '_pages'
 exclude:
   - Gemfile
   - Gemfile.lock
