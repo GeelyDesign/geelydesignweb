@@ -13,7 +13,22 @@ header_btn_learn_href: '#'
 header_btn_dl_text: Download
 header_btn_dl_href: http://www.themeinthebox.com/ourtheme/mountain-king-bootstrap-template/
 
-positions_title: Available positions
+feat: 
+ box1:
+  title: Consectetur Risus
+  icon: typcn-pencil
+  interval: 100ms
+  text: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+ box2:
+  title: Ultricies Aenean
+  icon: typcn-camera-outline
+  interval: 300ms
+  text: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
+ box3:
+  title: Cras Sollicitudin
+  icon: typcn-bookmark
+  interval: 500ms
+  text: Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum.
 
 about_title: Ligula Mattis Ornare Ultricies
 about_subtitle: Pellentesque Cursus Amet Parturient Etiam

@@ -1,15 +1,20 @@
 <section id="feat">
     <div class="container">
-    	<div class="row">
-    		<div class="col-xs-12 text-center">
-    			<h2 style="margin-top: 100px;">
-                    {{ page.positions_title }}         
-                </h2>
-    		</div>
-    	</div>
-        <div class="row features" id="features-row">
-            <div class="col-xs-12 text-center" id="loading">
-                <span class="typcn typcn-arrow-sync x3"></span>
+    	<div class="row features">
+            <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="{{ page.feat.box1.interval }}">
+                <span class="typcn {{ page.feat.box1.icon }} x3"></span>
+                <h4>{{ page.feat.box1.title }}</h4>
+                <p>{{ page.feat.box1.text }}</p>
+            </div>
+            <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="{{ page.feat.box2.interval }}">
+                <span class="typcn {{ page.feat.box2.icon }} x3"></span>
+                <h4>{{ page.feat.box2.title }}</h4>
+                <p>{{ page.feat.box2.text }}</p>
+            </div>
+            <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="{{ page.feat.box3.interval }}">
+                <span class="typcn {{ page.feat.box3.icon }} x3"></span>
+                <h4>{{ page.feat.box3.title }}</h4>
+                <p>{{ page.feat.box3.text }}</p>
             </div>
         </div>
     </div>
