@@ -33,8 +33,18 @@ about_title: Ligula Mattis Ornare Ultricies
 about_subtitle: Pellentesque Cursus Amet Parturient Etiam
 about_text: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
 about_digits: [
-	[Ultricies, [2, 3, ',', 5, 7, 8]],
-	[Fermentum, [1, 2, ',', 7, 0, 2]]
+  [
+    title: Ultricies,
+    digits: [2, 3, ',', 5, 7, 8],
+    delay: 100ms,
+    index: '01'
+  ],
+  [
+    title: Fermentum,
+    digits: [1, 2, ',', 7, 0, 2],
+    delay: 300ms,
+    index: '02'
+  ]
 ]
 
 news_title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.

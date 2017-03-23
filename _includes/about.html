@@ -1,6 +1,6 @@
 <section id="about" class="number wow fadeInUp" data-wow-delay="300ms">
     <!-- change the image in style.css to the class .number .container-fluid [approximately row 102] -->
-    <div class="container-fluid" style="background-image: url('{{ page.about_image  }}');">
+    <div class="container-fluid" style="background-image: url('{{ page.about_image }}');">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 opaline col-md-offset-6">
@@ -14,11 +14,11 @@
                     <div class="row text-center">
                         <!-- set the numbers in assets/js/scripts.js  -->
                         {% for item in page.about_digits %}
-                        <div class="col-md-4 boxes col-xs-6 col-xs-offset-3 col-lg-4 col-lg-offset-1 col-md-offset-1 col-sm-6 wow fadeInUp">
-                            <h5>{{ item[0] }}</h5>
-                            <h3 class="odometer odometer-theme-default">
+                        <div class="col-md-4 boxes col-xs-6 col-xs-offset-3 col-lg-4 col-lg-offset-1 col-md-offset-1 col-sm-6 wow fadeInUp" data-wow-delay="{{ item[2].delay }}">
+                            <h5>{{ item[0].title }}</h5>
+                            <h3 class="{{ item[3].index }} odometer odometer-theme-default">
                                 <div class="odometer-inside">
-                                {% for digit in item[1] %}
+                                {% for digit in item[1].digits %}
                                     {% if digit == ',' %}
                                     <span class="odometer-formatting-mark">,</span>
                                     {% else %}
