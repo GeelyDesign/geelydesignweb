@@ -207,6 +207,12 @@ footer p
     CUSTOM
 \*------------------------------------*/
 
+@media screen and ( max-width: 540px ) {
+    header .container-fluid {
+        height: auto;
+    }
+}
+
 #loading .typcn::before {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
@@ -261,6 +267,21 @@ section#map .arrowbox.losangeles {
     background-image: url('/assets/img/losangeles.png');
     right: 55px;
     top: 41%;
+}
+
+@media screen and ( max-width: 540px ) {
+    section#map {
+        display: none;
+    }
+}
+
+section#paralax {
+    padding-top: 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/assets/img/img5.jpg');
+    background-attachment: fixed;
 }
 
 .prefooter .container-fluid {
