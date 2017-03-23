@@ -262,3 +262,9 @@ section#map .arrowbox.losangeles {
     right: 55px;
     top: 41%;
 }
+
+.prefooter .container-fluid {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
