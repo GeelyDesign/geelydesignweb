@@ -4,7 +4,7 @@ lang: cn
 title: About
 permalink: /cn/about/
 
-header_image: https://unsplash.it/2560/1707?image=961
+header_image: assets/img/img1.jpg
 header_pretitle: In the hall of the
 header_title: Mountainus Kingus
 header_text: This is a simple hero unit, a simple jumbotron-style component for<br>
