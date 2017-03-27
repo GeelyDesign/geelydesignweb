@@ -280,7 +280,6 @@ section#paralax {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url('/assets/img/img5.jpg');
     background-attachment: fixed;
 }
 
@@ -288,4 +287,18 @@ section#paralax {
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+}
+
+#fixed-header {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: none;
+    height: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#fixed-header .logo {
+    margin: 22px 0;
 }

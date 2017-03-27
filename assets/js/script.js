@@ -1,8 +1,6 @@
 (function($){
 
-	console.log(true);
-
-	var apiUrl = 'http://www.cevt.se/positions/'
+	/*var apiUrl = 'http://www.cevt.se/positions/'
 		proxy = 'https://cors-anywhere.herokuapp.com/',
 		primary = $('#features-row')
 		loading = $('#loading');
@@ -50,6 +48,22 @@
 
 				});
 			});
+		}
+	});*/
+
+	var _after_header = $('header#home').next(),
+		_after_header_top = _after_header.offset().top,
+		_header = $('#fixed-header');
+
+	$(window).scroll(function(){
+		var _window = $(this),
+			_window_top = _window.scrollTop();
+
+		if ( _window_top >= _after_header_top ) {
+			_header.fadeIn(400);
+		}
+		else {
+			_header.fadeOut(400);
 		}
 	});
 

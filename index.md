@@ -63,4 +63,6 @@ history_small: Nibh Etiam Risus Bibendum<br>Nullam id dolor id nibh ultricies ve
 contact_image: /assets/img/img2.jpg
 contact_title: Maecenas sed diam eget risus varius<br> blandit sit amet non magna.
 contact_text: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+paralax_image: /assets/img/img5.jpg
 ---
