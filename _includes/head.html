@@ -8,8 +8,8 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-  <link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ site.siteurl }}assets/css/theme.css">
+  <link rel="stylesheet" href="{{ site.siteurl }}assets/css/style.css">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,700,900,500" rel="stylesheet" type="text/css">
@@ -17,11 +17,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.8/typicons.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   
-  <link rel="stylesheet" href="{{ "/assets/css/pushy.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/masonry.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/animate.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/magnific-popup.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/odometer-theme-default.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ site.siteurl }}assets/css/pushy.css">
+  <link rel="stylesheet" href="{{ site.siteurl }}assets/css/masonry.css">
+  <link rel="stylesheet" href="{{ site.siteurl }}assets/css/animate.css">
+  <link rel="stylesheet" href="{{ site.siteurl }}assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="{{ site.siteurl }}assets/css/odometer-theme-default.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   

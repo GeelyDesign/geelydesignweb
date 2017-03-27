@@ -210,6 +210,7 @@ footer p
 @media screen and ( max-width: 540px ) {
     header .container-fluid {
         height: auto;
+        padding: 0;
     }
 }
 
@@ -225,7 +226,7 @@ footer p
 
 section#map {
     background-color: #000;
-    background-image: url('/assets/img/map.png');
+    background-image: url('../../assets/img/map.png');
     background-position: center;
     background-repeat: no-repeat;
     height: 800px;
@@ -246,25 +247,25 @@ section#map .arrowbox {
 }
 
 section#map .arrowbox.gothenburg {
-    background-image: url('/assets/img/gothenburg.png');
+    background-image: url('../../assets/img/gothenburg.png');
     left: 10px;
     top: 27%;
 }
 
 section#map .arrowbox.barcelona {
-    background-image: url('/assets/img/barcelona.png');
+    background-image: url('../../assets/img/barcelona.png');
     left: -35px;
     top: 37%;
 }
 
 section#map .arrowbox.shanghai {
-    background-image: url('/assets/img/shanghai.png');
+    background-image: url('../../assets/img/shanghai.png');
     left: 420px;
     top: 44%;
 }
 
 section#map .arrowbox.losangeles {
-    background-image: url('/assets/img/losangeles.png');
+    background-image: url('../../assets/img/losangeles.png');
     right: 55px;
     top: 41%;
 }
@@ -299,6 +300,10 @@ section#paralax {
     z-index: 999;
 }
 
-#fixed-header .logo {
+#fixed-header .hamburger {
+    color: #36c4c5;
+}
+
+.logo {
     margin: 22px 0;
 }

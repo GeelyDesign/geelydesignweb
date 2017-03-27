@@ -1,19 +1,19 @@
 <header id="fixed-header">
     <div class="container">
         <div class="row">
-            <div class="col-md-2 col-xs-10">
+            <div class="col-md-2 col-xs-6">
                 <a href="#" class="thumbnail logo">
-                    <img src="/assets/img/geely_logo.png" alt="" class="img-responsive">
+                    <img src="{{ site.siteurl }}assets/img/geely_logo.png" alt="" class="img-responsive">
                 </a>
             </div>
-            <div class="col-md-3 col-xs-10">
+            <div class="col-md-3 col-xs-3">
                 {% if page.lang == 'en' %}
                 <a href="/cn" class="thumbnail logo">中文</a>
                 {% else %}
                 <a href="/" class="thumbnail logo">English</a>
                 {% endif %}
             </div>
-            <div class="col-md-1 col-md-offset-6 col-xs-2 text-center">
+            <div class="col-md-1 col-md-offset-6 col-xs-3 text-center">
                 <div class="menu-btn">
                     <span class="hamburger">
                         <i class="fa fa-bars"></i>
@@ -25,23 +25,23 @@
 </header>
 
 <header id="home">
-    <div class="container-fluid" style="background-image: url('{{ page.header_image }}');">
+    <div class="container-fluid" style="background-image: url('{{ site.siteurl }}{{ page.header_image }}');">
         <!-- change the image in style.css to the class header .container-fluid [approximately row 50] -->
         <div class="container">
             <div class="row">
-                <div class="col-md-2 col-xs-10">
+                <div class="col-md-2 col-xs-6">
                     <a href="#" class="thumbnail logo">
-                        <img src="/assets/img/geely_logo.png" alt="" class="img-responsive">
+                        <img src="{{ site.siteurl }}assets/img/geely_logo.png" alt="" class="img-responsive">
                     </a>
                 </div>
-                <div class="col-md-3 col-xs-10">
+                <div class="col-md-3 col-xs-3">
                     {% if page.lang == 'en' %}
-                    <a href="/cn" class="thumbnail logo">中文</a>
+                    <a href="{{ site.siteurl }}cn" class="thumbnail logo">中文</a>
                     {% else %}
-                    <a href="/" class="thumbnail logo">English</a>
+                    <a href="{{ site.siteurl }}" class="thumbnail logo">English</a>
                     {% endif %}
                 </div>
-                <div class="col-md-1 col-md-offset-6 col-xs-2 text-center">
+                <div class="col-md-1 col-md-offset-6 col-xs-3 text-center">
                     <div class="menu-btn">
                         <span class="hamburger">
                             <i class="fa fa-bars"></i>
