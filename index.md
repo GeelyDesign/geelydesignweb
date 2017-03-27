@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: en
 
 header_image: /assets/img/img1.jpg
 header_pretitle: In the hall of the

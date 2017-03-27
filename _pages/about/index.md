@@ -1,5 +1,6 @@
 ---
 layout: about
+lang: en
 title: About
 permalink: /about/
 
@@ -13,11 +14,22 @@ header_btn_learn_href: '#'
 header_btn_dl_text: Download
 header_btn_dl_href: http://www.themeinthebox.com/ourtheme/mountain-king-bootstrap-template/
 
-about_title: About us
-about_subtitle: Some text about us
+about_image: /assets/img/img4.jpg
+about_title: Ligula Mattis Ornare Ultricies
+about_subtitle: Pellentesque Cursus Amet Parturient Etiam
 about_text: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
 about_digits: [
-	[Ultricies, [2, 3, ',', 5, 7, 8]],
-	[Fermentum, [1, 2, ',', 7, 0, 2]]
+  [
+    title: Ultricies,
+    digits: [2, 3, ',', 5, 7, 8],
+    delay: 100ms,
+    index: '01'
+  ],
+  [
+    title: Fermentum,
+    digits: [1, 2, ',', 7, 0, 2],
+    delay: 300ms,
+    index: '02'
+  ]
 ]
 ---

@@ -7,9 +7,11 @@
                 </a>
             </div>
             <div class="col-md-3 col-xs-10">
-                <a href="/cn" class="thumbnail logo">
-                    中文
-                </a>
+                {% if page.lang == 'en' %}
+                <a href="/cn" class="thumbnail logo">中文</a>
+                {% else %}
+                <a href="/" class="thumbnail logo">English</a>
+                {% endif %}
             </div>
             <div class="col-md-1 col-md-offset-6 col-xs-2 text-center">
                 <div class="menu-btn">
@@ -33,9 +35,11 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xs-10">
-                    <a href="/cn" class="thumbnail logo">
-                        中文
-                    </a>
+                    {% if page.lang == 'en' %}
+                    <a href="/cn" class="thumbnail logo">中文</a>
+                    {% else %}
+                    <a href="/" class="thumbnail logo">English</a>
+                    {% endif %}
                 </div>
                 <div class="col-md-1 col-md-offset-6 col-xs-2 text-center">
                     <div class="menu-btn">
