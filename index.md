@@ -35,7 +35,7 @@ about_box1_digits: [2, 3, ',', 5, 7, 8]
 about_box2_title: Fermentum
 about_box2_digits: [1, 2, ',', 7, 0, 2]
 
-news_title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+news_title: Loololorem ipsum dolor sit amet, consectetur adipiscing elit.
 news_text: <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec sed odio dui. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.</p><p>Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue.</p>
 news_btn_text: Take a look
 news_btn_href: '#'
