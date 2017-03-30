@@ -16,37 +16,24 @@ feat:
  box1:
   title: Consectetur Risus
   icon: typcn-pencil
-  interval: 100ms
   text: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
  box2:
   title: Ultricies Aenean
   icon: typcn-camera-outline
-  interval: 300ms
   text: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
  box3:
   title: Cras Sollicitudin
   icon: typcn-bookmark
-  interval: 500ms
   text: Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum.
 
 about_image: assets/img/img4.jpg
 about_title: Ligula Mattis Ornare Ultricies
 about_subtitle: Pellentesque Cursus Amet Parturient Etiam
 about_text: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-about_digits: [
-  [
-    title: Ultricies,
-    digits: [2, 3, ',', 5, 7, 8],
-    delay: 100ms,
-    index: '01'
-  ],
-  [
-    title: Fermentum,
-    digits: [1, 2, ',', 7, 0, 2],
-    delay: 300ms,
-    index: '02'
-  ]
-]
+about_box1_title: Ultricies
+about_box1_digits: [2, 3, ',', 5, 7, 8]
+about_box2_title: Fermentum
+about_box2_digits: [1, 2, ',', 7, 0, 2]
 
 news_title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 news_text: <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec sed odio dui. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.</p><p>Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue.</p>

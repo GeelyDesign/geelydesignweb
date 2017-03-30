@@ -13,12 +13,11 @@
                     </div>
                     <div class="row text-center">
                         <!-- set the numbers in assets/js/scripts.js  -->
-                        {% for item in page.about_digits %}
-                        <div class="col-md-4 boxes col-xs-6 col-xs-offset-3 col-lg-4 col-lg-offset-1 col-md-offset-1 col-sm-6 wow fadeInUp" data-wow-delay="{{ item[2].delay }}">
-                            <h5>{{ item[0].title }}</h5>
-                            <h3 class="{{ item[3].index }} odometer odometer-theme-default">
+                        <div class="col-md-4 boxes col-xs-6 col-xs-offset-3 col-lg-4 col-lg-offset-1 col-md-offset-1 col-sm-6 wow fadeInUp" data-wow-delay="100ms">
+                            <h5>{{ page.about_box1_title }}</h5>
+                            <h3 class="01 odometer odometer-theme-default">
                                 <div class="odometer-inside">
-                                {% for digit in item[1].digits %}
+                                {% for digit in page.about_box1_digits %}
                                     {% if digit == ',' %}
                                     <span class="odometer-formatting-mark">,</span>
                                     {% else %}
@@ -37,7 +36,29 @@
                                 </div>
                             </h3>
                         </div>
-                        {% endfor %}
+                        <div class="col-md-4 boxes col-xs-6 col-xs-offset-3 col-lg-4 col-lg-offset-1 col-md-offset-1 col-sm-6 wow fadeInUp" data-wow-delay="300ms">
+                            <h5>{{ page.about_box2_title }}</h5>
+                            <h3 class="02 odometer odometer-theme-default">
+                                <div class="odometer-inside">
+                                {% for digit in page.about_box2_digits %}
+                                    {% if digit == ',' %}
+                                    <span class="odometer-formatting-mark">,</span>
+                                    {% else %}
+                                    <span class="odometer-digit">
+                                        <span class="odometer-digit-spacer">8</span>
+                                        <span class="odometer-digit-inner">
+                                            <span class="odometer-ribbon">
+                                                <span class="odometer-ribbon-inner">
+                                                    <span class="odometer-value">{{ digit }}</span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                    {% endif %}
+                                {% endfor %}
+                                </div>
+                            </h3>
+                        </div>
                     </div>
                 </div>
             </div>
