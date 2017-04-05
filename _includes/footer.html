@@ -1,33 +1,58 @@
-<footer>
+<section id="prefooter" class="divider" style="background-image: url('{{ page.prefooter.image }}');">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
-                <h3>{{ page.footer_logo }}</h3>
-                <p>{{ page.footer_text }} <a target="_blank" href="{{ page.footer_link }}">{{ page.footer_text_link }}</a></p>
+            <div class="column col-xs-12 col-sm-4">
+                Logo
             </div>
-            <div class="col-md-4">
-                <p class="text-right social">
-                    
-                {% if site.facebook %}
-                    <a href="{{ site.facebook }}" target="_blank">
-                      <i class="typcn typcn-social-facebook-circular"></i>
-                    </a>
-                {% else %}
-                    <i class="typcn typcn-social-facebook-circular"></i>
-                {% endif %}
-                
-                {% if site.twitter %}    
-                    <a href="{{ site.twitter }}" target="_blank">
-                      <i class="typcn typcn-social-twitter-circular"></i>
-                    </a>
-                {% else %}
-                    <i class="typcn typcn-social-twitter-circular"></i>
-                {% endif %}
-                
-                    <i class="typcn typcn-social-tumbler-circular"></i>
-                    <i class="typcn typcn-social-github-circular"></i>
-                    <i class="typcn typcn-social-dribbble-circular"></i>
+            <div class="column col-xs-12 col-sm-4">
+                Logo
+            </div>
+            <div class="column col-xs-12 col-sm-4">
+                Logo
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="section black">
+    <div class="container">
+        <div class="row flex">
+            <div class="column flex col-xs-12 col-sm-4">
+                <h2>{{ page.footer.box1.title }}</h2>
+                <p>
+                    {{ page.footer.box1.address }}<br>
+                    {{ page.footer.box1.phone }}<br>
+                    {{ page.footer.box1.email }}<br>
+                    {{ page.footer.box1.other }}
                 </p>
+                <a href="{{ page.footer.box1.btn.href }}" class="button">{{ page.footer.box1.btn.text }}</a>
+            </div>
+            <div class="column flex col-xs-12 col-sm-4">
+                <h2>{{ page.footer.box2.title }}</h2>
+                <p>
+                    {{ page.footer.box2.address }}<br>
+                    {{ page.footer.box2.phone }}<br>
+                    {{ page.footer.box2.email }}<br>
+                    {{ page.footer.box2.other }}
+                </p>
+                <a href="{{ page.footer.box2.btn.href }}" class="button">{{ page.footer.box2.btn.text }}</a>
+            </div>
+            <div class="column flex col-xs-12 col-sm-4">
+                <h2>{{ page.footer.box3.title }}</h2>
+                <p>
+                    {{ page.footer.box3.address }}<br>
+                    {{ page.footer.box3.phone }}<br>
+                    {{ page.footer.box3.email }}<br>
+                    {{ page.footer.box3.other }}
+                </p>
+                <a href="{{ page.footer.box3.btn.href }}" class="button">{{ page.footer.box3.btn.text }}</a>
+            </div>
+        </div>
+        <div class="row bottom">
+            <div class="column col-xs-12 col-sm-6">
+                <p>&copy; {{ page.footer.copy }}</p>
+            </div>
+            <div class="column col-xs-12 col-sm-6 text-right">
+                <p>{{ page.footer.social }}</p>
             </div>
         </div>
     </div>

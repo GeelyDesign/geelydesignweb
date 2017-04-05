@@ -1,71 +1,51 @@
 <header id="fixed-header">
     <div class="container">
         <div class="row">
-            <div class="col-md-2 col-xs-6">
-                <a href="#" class="thumbnail logo">
-                    <img src="{{ site.siteurl }}assets/img/geely_logo.png" alt="" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-md-3 col-xs-3">
-                {% if page.lang == 'en' %}
-                <a href="/cn" class="thumbnail logo">中文</a>
-                {% else %}
-                <a href="/" class="thumbnail logo">English</a>
-                {% endif %}
-            </div>
-            <div class="col-md-1 col-md-offset-6 col-xs-3 text-center">
-                <div class="menu-btn">
-                    <span class="hamburger">
-                        <i class="fa fa-bars"></i>
-                    </span>
-                </div>
+            <div class="column col-xs-12 text-right">
+                <ul class="menu">
+                    <li>
+                        {% if page.lang == 'cn' %}
+                        <a href="{{ site.siteurl }}cn" class="current">中文</a>
+                        {% else %}
+                        <a href="{{ site.siteurl }}cn">中文</a>
+                        {% endif %}
+                    </li>
+                    <li>
+                        {% if page.lang == 'en' %}
+                        <a href="{{ site.siteurl }}cn" class="current">English</a>
+                        {% else %}
+                        <a href="{{ site.siteurl }}cn">English</a>
+                        {% endif %}
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
 </header>
 
 <header id="home">
-    <div class="container-fluid" style="background-image: url('{{ site.siteurl }}{{ page.header_image }}');">
+    <div class="container-fluid" style="background-image: url('{{ site.siteurl }}{{ page.header.image }}');">
         <!-- change the image in style.css to the class header .container-fluid [approximately row 50] -->
         <div class="container">
             <div class="row">
-                <div class="col-md-2 col-xs-6">
-                    <a href="#" class="thumbnail logo">
-                        <img src="{{ site.siteurl }}assets/img/geely_logo.png" alt="" class="img-responsive">
-                    </a>
+                <div class="column col-xs-12 text-right">
+                    <ul class="menu">
+                        <li>
+                            {% if page.lang == 'cn' %}
+                            <a href="{{ site.siteurl }}cn" class="current">中文</a>
+                            {% else %}
+                            <a href="{{ site.siteurl }}cn">中文</a>
+                            {% endif %}
+                        </li>
+                        <li>
+                            {% if page.lang == 'en' %}
+                            <a href="{{ site.siteurl }}cn" class="current">English</a>
+                            {% else %}
+                            <a href="{{ site.siteurl }}cn">English</a>
+                            {% endif %}
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-md-3 col-xs-3">
-                    {% if page.lang == 'en' %}
-                    <a href="{{ site.siteurl }}cn" class="thumbnail logo">中文</a>
-                    {% else %}
-                    <a href="{{ site.siteurl }}" class="thumbnail logo">English</a>
-                    {% endif %}
-                </div>
-                <div class="col-md-1 col-md-offset-6 col-xs-3 text-center">
-                    <div class="menu-btn">
-                        <span class="hamburger">
-                            <i class="fa fa-bars"></i>
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="jumbotron">
-                <h1><small>{{ page.header_pretitle }}</small><br>
-                <strong>{{ page.header_title }}</strong></h1>
-                <p>
-                  {{ page.header_text }}
-                </p>
-                {% for item in page.header_buttons %}
-                    {{ item.text }}
-                {% endfor %}
-                <p>
-                    <a class="btn btn-primary btn-lg" href="{{ page.header_btn_learn_href }}" role="button">
-                        {{ page.header_btn_learn_text }}
-                    </a> 
-                    <a target="_blank" href="{{ page.header_btn_dl_href }}" class="btn btn-lg btn-danger" role="button">
-                        {{ page.header_btn_dl_text }}
-                    </a>
-                </p>
             </div>
         </div>
     </div>

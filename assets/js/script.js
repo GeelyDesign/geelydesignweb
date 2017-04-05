@@ -1,4 +1,15 @@
+setTimeout(function(){
+  $('.odometer').each(function(){
+    var number = $(this).data('number');
+    $(this).html(number);
+  });
+});
+
 (function($){
+
+	//===================
+	//  Get job positions
+	//===================
 
 	/*var apiUrl = 'http://www.cevt.se/positions/'
 		proxy = 'https://cors-anywhere.herokuapp.com/',
@@ -51,6 +62,10 @@
 		}
 	});*/
 
+	//===================
+	//  Sticky header
+	//===================
+
 	var _after_header = $('header#home').next(),
 		_after_header_top = _after_header.offset().top,
 		_header = $('#fixed-header');
@@ -65,6 +80,91 @@
 		else {
 			_header.fadeOut(400);
 		}
+	});
+
+	//===================
+	//  Video
+	//===================
+
+	function play_pause(window_top){
+		var _video = $('#video > video'),
+			_section = $('#video'),
+			_top = _section.offset().top,
+			_height = _section.height() / 2,
+			_new_top = _top - _height;
+
+		if ( window_top >= _new_top ) {
+			_video[0].play();
+		}
+		else {
+			_video[0].pause();
+		}
+	};
+
+	//===================
+	//  Masonry
+	//===================
+
+	$(window).load(function(){
+
+		var $grid = $('.masonry').masonry({
+			columnWidth: '.grid-sizer',
+			gutter: '.gutter-sizer',
+			itemSelector: '.item'
+		});
+
+		$grid.masonry('on', 'layoutComplete', function(){
+			$(window).scroll(function(){
+				var _window = $(this),
+					_window_top = _window.scrollTop();
+
+				play_pause(_window_top);
+			});
+		});
+
+		$grid.masonry();
+
+	});
+
+	//===================
+	//  Magnific Popup
+	//===================
+
+	$(document).ready(function(){
+		$('.image-gallery').magnificPopup({
+			delegate: '.item a',
+			type: 'image'
+		});
+
+		new WOW().init();
+	});
+
+	//===================
+	//  Scroller
+	//===================
+
+	$('nav.pushy a[href*=#]').click(function(){
+
+		if ( location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname ) {
+
+			var $target = $(this.hash);
+
+			$target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+
+			if ( $target.length ) {
+
+				var targetOffset = $target.offset().top - 0;
+
+				$('html,body').animate({
+					scrollTop: targetOffset
+				}, 800);
+
+				return false;
+
+			}
+
+		}
+
 	});
 
 })(jQuery);

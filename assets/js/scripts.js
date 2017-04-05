@@ -3,19 +3,21 @@
 //  Here set the numebers
 //===================
 
-setTimeout(function(){
+/*setTimeout(function(){
   $('.odometer.01').html(23578);
 }, 1000);
 setTimeout(function(){
   $('.odometer.02').html(12702);
-}, 1000);
+}, 1000);*/
+
+
 
 
 //===================
 //  Magnific Popup
 //===================
 
-jQuery(document).ready(function() {
+/*jQuery(document).ready(function() {
   jQuery('.image-gallery').magnificPopup({
     delegate: '.item a', // child items selector, by clicking on it popup will open
     type:'image'
@@ -28,7 +30,7 @@ jQuery(document).ready(function() {
 
   new WOW().init();
 
-});
+});*/
 
 
 
@@ -37,7 +39,7 @@ jQuery(document).ready(function() {
 //  do not touch
 //===================
 
-$(function(){
+/*$(function(){
 
   $('nav.pushy a[href*=#]').click(function() {
 
@@ -62,4 +64,4 @@ $(function(){
 
   });
 
-});
+});*/

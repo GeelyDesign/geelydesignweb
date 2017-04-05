@@ -1,11 +1,22 @@
-<section id="map" class="number wow fadeInUp" data-wow-delay="300ms">
+<section id="map">
+</section>
+<section id="offices" class="section black">
 	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<span class="arrowbox gothenburg"></span>
-				<span class="arrowbox barcelona"></span>
-				<span class="arrowbox shanghai"></span>
-				<span class="arrowbox losangeles"></span>
+		<div class="row flex">
+			<div class="column flex col-xs-12 col-sm-4">
+				<h2>{{ page.map.box1.title }}</h2>
+				<p>{{ page.map.box1.text }}</p>
+				<a href="{{ page.map.box1.btn.href }}" class="button">{{ page.map.box1.btn.text }}</a>
+			</div>
+			<div class="column flex col-xs-12 col-sm-4">
+				<h2>{{ page.map.box2.title }}</h2>
+				<p>{{ page.map.box2.text }}</p>
+				<a href="{{ page.map.box2.btn.href }}" class="button">{{ page.map.box2.btn.text }}</a>
+			</div>
+			<div class="column flex col-xs-12 col-sm-4">
+				<h2>{{ page.map.box3.title }}</h2>
+				<p>{{ page.map.box3.text }}</p>
+				<a href="{{ page.map.box3.btn.href }}" class="button">{{ page.map.box3.btn.text }}</a>
 			</div>
 		</div>
 	</div>

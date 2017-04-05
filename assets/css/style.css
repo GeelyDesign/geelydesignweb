@@ -1,5 +1,5 @@
 /*------------------------------------*\
-	COMMONS CLASSES
+    COMMONS CLASSES
 \*------------------------------------*/
 
 h1, h2, h3, h4, h5, h6
@@ -44,7 +44,7 @@ span.x4:before, i.x4:before
 
 
 /*------------------------------------*\
-	HEADER
+    HEADER
 \*------------------------------------*/
 
 header .container-fluid
@@ -100,7 +100,7 @@ header .container-fluid
 
 
 /*------------------------------------*\
-	SECTIONS
+    SECTIONS
 \*------------------------------------*/
 
 .number .container-fluid
@@ -224,14 +224,6 @@ footer p
     animation: fa-spin 2s infinite linear;
 }
 
-section#map {
-    background-color: #000;
-    background-image: url('../../assets/img/map.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 800px;
-}
-
 section#map .container,
 section#map .row,
 section#map .col-xs-12 {
@@ -284,6 +276,11 @@ section#paralax {
     background-attachment: fixed;
 }
 
+section#video video {
+    display: block;
+    width: 100%;
+}
+
 .prefooter .container-fluid {
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -294,6 +291,7 @@ section#paralax {
     background-color: rgba(0, 0, 0, 0.2);
     display: none;
     height: auto;
+    padding: 20px 0;
     position: fixed;
     top: 0;
     width: 100%;
@@ -306,4 +304,270 @@ section#paralax {
 
 .logo {
     margin: 22px 0;
+}
+
+/*------------------------------------*\
+    GEELY DESIGN FIXES
+\*------------------------------------*/
+
+/* GENERAL */
+
+body {
+    font-family: Arial, Verdana, sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Verdana, sans-serif !important;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+@media ( min-width: 992px ) {
+    img.float {
+        position: absolute;
+        z-index: 99;
+    }
+}
+    
+@media ( min-width: 768px ) {
+    .column.flex {
+        align-items: stretch;
+        padding-bottom: 66px;
+    }
+
+    .row.flex {
+        display: flex;
+    }
+}
+
+@media ( min-width: 1500px ) {
+    .container {
+        padding-left: 60px;
+        padding-right: 60px;
+        width: 1440px;
+    }
+    .column {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .row {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+}
+
+@media ( max-width: 480px ) {
+    .column {
+        margin-bottom: 60px;
+    }
+    .column:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+/* COMMON */
+
+.button {
+    background-color: #f9e547;
+    bottom: 0;
+    color: #101820;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 9px;
+}
+
+@media ( min-width: 768px ) {
+    .button {
+        position: absolute;
+    }
+}
+
+.section {
+    font-size: 16px;
+    line-height: 1.63;
+    padding-bottom: 62px;
+    padding-top: 62px;
+}
+
+.section.black {
+    background-color: #101820;
+    color: #fff;
+}
+
+.section.white {
+    background-color: #fff;
+}
+
+.section h2 {
+    color: #f9e547;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 22px;
+    margin: 0 0 9px;
+    text-transform: uppercase;
+}
+
+.section.white h2 {
+    color: #101820;
+}
+
+/* HEADER */
+
+header .container-fluid {
+    padding-top: 28px;
+}
+
+header ul.menu {
+    float: right;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+header ul.menu > li {
+    float: left;
+    font-size: 20px;
+    line-height: 20px;
+    list-style: none;
+    margin-left: 60px;
+    text-transform: uppercase;
+}
+
+header ul.menu > li > a {
+    color: #fff;
+}
+
+header ul.menu > li > a.current {
+    color: #f9e547;
+}
+
+@media ( max-width: 480px ) {
+    header,
+    header .container-fluid {
+        height: 100vh;
+    }
+    header ul.menu {
+        width: 100%;
+    }
+    header ul.menu > li {
+        float: left;
+        margin-left: 0;
+        text-align: center;
+        width: 50%;
+    }
+}
+
+/* FOOTER */
+
+footer .bottom {
+    margin-top: 62px;
+}
+
+@media ( max-width: 480px ) {
+    footer .bottom .column {
+        margin-bottom: 0;
+        text-align: center !important;
+    }
+}
+
+/* MAP */
+
+#map {
+    background-color: #101820;
+    background-image: url('../../assets/img/map.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+/* MASONRY */
+
+.masonry {
+    margin: 0 !important;
+}
+
+.masonry .grid-sizer {
+    width: 22% !important;
+}
+
+.masonry .gutter-sizer {
+    width: 4% !important;
+}
+
+.masonry .item {
+    width: 22% !important;
+    margin-bottom: 60px !important;
+}
+
+.masonry .item-width2 {
+    width: 48% !important;
+}
+
+@media ( max-width: 480px ) {
+    .masonry .item {
+        width: 100% !important;
+    }
+}
+
+/* DIVIDER */
+
+.divider {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+.divider::before {
+    background-color: rgba(249, 229, 71, 0.7);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+@media ( max-width: 480px ) {
+    .divider {
+        height: 200px;
+    }
+}
+
+@media ( max-width: 1024px ) {
+    .divider {
+        height: 300px;
+    }
+}
+
+/* HOW WE DO IT */
+
+#how-we-do-it {
+    background-color: transparent;
+}
+
+/* PREFOOTER */
+
+@media ( max-width: 480px ) {
+    #prefooter {
+        height: auto;
+        padding: 62px 0;
+    }
+}
+
+@media ( min-width: 768px ) {
+    #prefooter {
+        margin-top: -240px;
+        padding-top: 180px;
+        z-index: -1;
+    }
 }
