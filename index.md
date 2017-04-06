@@ -2,9 +2,6 @@
 layout: default
 lang: en
 
-header:
-  image: assets/img/7974.jpg
-
 who_we_are:
   image: assets/img/7138.jpg
   divider: assets/img/6938.jpg
@@ -37,37 +34,4 @@ how_we_do_it:
 
 prefooter:
   image: assets/img/7974.jpg
-
-footer:
-  copy: 2017 Geely Design
-
-  social: SOCIAL MEDIA
-
-  box1:
-    title: Gothenburg
-    address: Adress
-    phone: Phone
-    email: Email
-    other: Whathaveyou
-    btn:
-      text: join us
-      href: ''
-  box2:
-    title: Shanghai
-    address: Adress
-    phone: Phone
-    email: Email
-    other: Whathaveyou
-    btn:
-      text: join us
-      href: ''
-  box3:
-    title: Barcelona & L.A.
-    address: Adress
-    phone: Phone
-    email: Email
-    other: Whathaveyou
-    btn:
-      text: join us
-      href: ''
 ---

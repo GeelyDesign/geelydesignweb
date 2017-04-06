@@ -5,16 +5,16 @@
                 <ul class="menu">
                     <li>
                         {% if page.lang == 'cn' %}
-                        <a href="{{ site.siteurl }}cn" class="current">中文</a>
+                        <a href="{{ site.siteurl }}cn" class="current">{{ site.header.menu.cn }}</a>
                         {% else %}
-                        <a href="{{ site.siteurl }}cn">中文</a>
+                        <a href="{{ site.siteurl }}cn">{{ site.header.menu.cn }}</a>
                         {% endif %}
                     </li>
                     <li>
                         {% if page.lang == 'en' %}
-                        <a href="{{ site.siteurl }}cn" class="current">English</a>
+                        <a href="{{ site.siteurl }}cn" class="current">{{ site.header.menu.en }}</a>
                         {% else %}
-                        <a href="{{ site.siteurl }}cn">English</a>
+                        <a href="{{ site.siteurl }}cn">{{ site.header.menu.en }}</a>
                         {% endif %}
                     </li>
                 </ul>
@@ -24,7 +24,7 @@
 </header>
 
 <header id="home">
-    <div class="container-fluid" style="background-image: url('{{ site.siteurl }}{{ page.header.image }}');">
+    <div class="container-fluid" style="background-image: url('{{ site.siteurl }}{{ site.header.image }}');">
         <!-- change the image in style.css to the class header .container-fluid [approximately row 50] -->
         <div class="container">
             <div class="row">

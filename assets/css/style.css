@@ -313,6 +313,7 @@ section#video video {
 /* GENERAL */
 
 body {
+    color: #101820;
     font-family: Arial, Verdana, sans-serif !important;
 }
 
@@ -334,12 +335,14 @@ img {
     
 @media ( min-width: 768px ) {
     .column.flex {
-        align-items: stretch;
         padding-bottom: 66px;
     }
 
     .row.flex {
+        display: -webkit-flex;
+        -webkit-align-items: center;
         display: flex;
+        align-items: stretch;
     }
 }
 
@@ -404,6 +407,16 @@ img {
     background-color: #fff;
 }
 
+.section h1 {
+    color: #101820;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 32px;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
 .section h2 {
     color: #f9e547;
     font-size: 20px;
@@ -412,6 +425,12 @@ img {
     line-height: 22px;
     margin: 0 0 9px;
     text-transform: uppercase;
+}
+
+.section date {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 0 20px;
 }
 
 .section.white h2 {

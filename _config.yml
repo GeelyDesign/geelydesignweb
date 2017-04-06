@@ -1,6 +1,6 @@
 name: Geely Design Web
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 include:
   - '_pages'
 exclude:
@@ -15,15 +15,95 @@ gems:
   - jekyll-feed
 
 title: Geely Design Web
-logo: /assets/img/geely_logo.png
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
 facebook: https://www.facebook.com/ThemeInTheBox/
 twitter: https://twitter.com/ThemeintheBox
+
+header:
+  image: assets/img/7974.jpg
+  menu:
+    en: English
+    cn: 中文
+
+prefooter:
+  image: assets/img/7974.jpg
+
+footer:
+  copy: 2017 Geely Design
+
+  social: SOCIAL MEDIA
+
+  box1:
+    title:
+      en: Gothenburg
+      cn: Göteborg
+    address:
+      en: Adress
+      cn: Adress
+    phone:
+      en: Phone
+      cn: Telefon
+    email:
+      en: Email
+      cn: E-post
+    other:
+      en: Whathaveyou
+      cn: Vadhardu
+    btn:
+      text:
+        en: join us
+        cn: gå med
+      href:
+        en: ''
+        cn: ''
+  box2:
+    title:
+      en: Shanghai
+      cn: Shanghai
+    address:
+      en: Adress
+      cn: Adress
+    phone:
+      en: Phone
+      cn: Telefon
+    email:
+      en: Email
+      cn: E-post
+    other:
+      en: Whathaveyou
+      cn: Vadhardu
+    btn:
+      text:
+        en: join us
+        cn: gå med
+      href:
+        en: ''
+        cn: ''
+  box3:
+    title:
+      en: Barcelona & L.A.
+      cn: Barcelona & L.A.
+    address:
+      en: Adress
+      cn: Adress
+    phone:
+      en: Phone
+      cn: Telefon
+    email:
+      en: Email
+      cn: E-post
+    other:
+      en: Whathaveyou
+      cn: Vadhardu
+    btn:
+      text:
+        en: join us
+        cn: gå med
+      href:
+        en: ''
+        cn: ''

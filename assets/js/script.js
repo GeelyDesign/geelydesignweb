@@ -86,7 +86,7 @@ setTimeout(function(){
 	//  Video
 	//===================
 
-	function play_pause(window_top){
+	/*function play_pause(window_top){
 		var _video = $('#video > video'),
 			_section = $('#video'),
 			_top = _section.offset().top,
@@ -99,7 +99,7 @@ setTimeout(function(){
 		else {
 			_video[0].pause();
 		}
-	};
+	};*/
 
 	//===================
 	//  Masonry
@@ -118,7 +118,7 @@ setTimeout(function(){
 				var _window = $(this),
 					_window_top = _window.scrollTop();
 
-				play_pause(_window_top);
+				//play_pause(_window_top);
 			});
 		});
 
