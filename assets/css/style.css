@@ -224,50 +224,6 @@ footer p
     animation: fa-spin 2s infinite linear;
 }
 
-section#map .container,
-section#map .row,
-section#map .col-xs-12 {
-    height: 100%;
-}
-
-section#map .arrowbox {
-    background-position: left top;
-    background-repeat: no-repeat;
-    height: 65px;
-    position: absolute;
-    width: 241px;
-}
-
-section#map .arrowbox.gothenburg {
-    background-image: url('../../assets/img/gothenburg.png');
-    left: 10px;
-    top: 27%;
-}
-
-section#map .arrowbox.barcelona {
-    background-image: url('../../assets/img/barcelona.png');
-    left: -35px;
-    top: 37%;
-}
-
-section#map .arrowbox.shanghai {
-    background-image: url('../../assets/img/shanghai.png');
-    left: 420px;
-    top: 44%;
-}
-
-section#map .arrowbox.losangeles {
-    background-image: url('../../assets/img/losangeles.png');
-    right: 55px;
-    top: 41%;
-}
-
-@media screen and ( max-width: 540px ) {
-    section#map {
-        display: none;
-    }
-}
-
 section#paralax {
     padding-top: 35%;
     background-repeat: no-repeat;
@@ -313,7 +269,8 @@ section#video video {
 /* GENERAL */
 
 body {
-    color: #101820;
+    background-color: #101820;
+    color: #fff;
     font-family: Arial, Verdana, sans-serif !important;
 }
 
@@ -322,6 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img {
+    border: solid 2px #fff;
     height: auto;
     max-width: 100%;
 }
@@ -382,7 +340,14 @@ img {
     font-weight: bold;
     height: 40px;
     line-height: 40px;
+    min-width: 200px;
     padding: 0 9px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #101820;
+    text-decoration: none;
 }
 
 @media ( min-width: 768px ) {
@@ -419,6 +384,16 @@ img {
 
 .section h2 {
     color: #f9e547;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+.section h3 {
+    color: #f9e547;
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -440,6 +415,9 @@ img {
 /* HEADER */
 
 header .container-fluid {
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
     padding-top: 28px;
 }
 
@@ -467,10 +445,20 @@ header ul.menu > li > a.current {
     color: #f9e547;
 }
 
+header #logo {
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 @media ( max-width: 480px ) {
     header,
     header .container-fluid {
         height: 100vh;
+    }
+    header .container-fluid {
+        background-size: 75% auto, cover;
     }
     header ul.menu {
         width: 100%;
@@ -503,7 +491,10 @@ footer .bottom {
     background-image: url('../../assets/img/map.png');
     background-position: center;
     background-repeat: no-repeat;
-    height: 700px;
+}
+
+#map .top {
+    margin-bottom: 330px;
 }
 
 /* MASONRY */
@@ -547,7 +538,7 @@ footer .bottom {
 }
 
 .divider::before {
-    background-color: rgba(249, 229, 71, 0.7);
+    background-color: rgba(16, 24, 32, 0.8);
     content: "";
     height: 100%;
     left: 0;
@@ -575,6 +566,10 @@ footer .bottom {
 }
 
 /* PREFOOTER */
+
+#prefooter:before {
+    background-color: rgba(16, 24, 32, 0.9);
+}
 
 @media ( max-width: 480px ) {
     #prefooter {
