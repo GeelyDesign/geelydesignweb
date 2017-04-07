@@ -462,7 +462,7 @@ header #logo {
         height: 100vh;
     }
     header .container-fluid {
-        background-size: 75% auto, cover;
+        background-size: 75% auto, auto, cover;
     }
     header ul.menu {
         width: 100%;
@@ -499,6 +499,15 @@ footer .bottom {
 
 #map .top {
     margin-bottom: 330px;
+}
+
+@media ( max-width: 480px ) {
+    #map {
+        background-image: none;
+    }
+    #map .top {
+        margin-bottom: 50px;
+    }
 }
 
 /* MASONRY */
