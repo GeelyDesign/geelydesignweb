@@ -546,7 +546,7 @@ footer .bottom {
 
 .divider {
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -567,6 +567,7 @@ footer .bottom {
 
 @media ( max-width: 480px ) {
     .divider {
+        background-size: 100% auto;
         height: 200px;
     }
 }
