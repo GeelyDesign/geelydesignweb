@@ -5,16 +5,16 @@
                 <ul class="menu">
                     <li>
                         {% if page.lang == 'cn' %}
-                        <a href="{{ site.siteurl }}cn" class="current">{{ site.header.menu.cn }}</a>
+                        <a href="{{ site.imageurl }}cn" class="current">{{ site.header.menu.cn }}</a>
                         {% else %}
-                        <a href="{{ site.siteurl }}cn">{{ site.header.menu.cn }}</a>
+                        <a href="{{ site.imageurl }}cn">{{ site.header.menu.cn }}</a>
                         {% endif %}
                     </li>
                     <li>
                         {% if page.lang == 'en' %}
-                        <a href="{{ site.siteurl }}cn" class="current">{{ site.header.menu.en }}</a>
+                        <a href="{{ site.imageurl }}cn" class="current">{{ site.header.menu.en }}</a>
                         {% else %}
-                        <a href="{{ site.siteurl }}cn">{{ site.header.menu.en }}</a>
+                        <a href="{{ site.imageurl }}cn">{{ site.header.menu.en }}</a>
                         {% endif %}
                     </li>
                 </ul>
@@ -26,17 +26,17 @@
 <header id="home">
     <div class="container-fluid" style="
         background-image: 
-            url('{{ site.siteurl  }}assets/img/gd-logo.svg'), 
+            url('{{ site.imageurl }}gd-logo.svg'), 
             -webkit-linear-gradient(top, rgba(16,24,32,0.2) 0%,rgba(16,24,32,0.2) 100%), 
-            url('{{ site.siteurl }}{{ site.header.image }}');
+            url('{{ site.imageurl }}{{ site.header.image }}');
         background-image: 
-            url('{{ site.siteurl  }}assets/img/gd-logo.svg'), 
+            url('{{ site.imageurl }}gd-logo.svg'), 
             -moz-linear-gradient(top, rgba(16,24,32,0.2) 0%,rgba(16,24,32,0.2) 100%), 
-            url('{{ site.siteurl }}{{ site.header.image }}');
+            url('{{ site.imageurl }}{{ site.header.image }}');
         background-image: 
-            url('{{ site.siteurl  }}assets/img/gd-logo.svg'), 
+            url('{{ site.imageurl  }}gd-logo.svg'), 
             linear-gradient(to bottom, rgba(16,24,32,0.2) 0%,rgba(16,24,32,0.2) 100%), 
-            url('{{ site.siteurl }}{{ site.header.image }}');
+            url('{{ site.imageurl }}{{ site.header.image }}');
     ">
         <!-- change the image in style.css to the class header .container-fluid [approximately row 50] -->
         <div class="container">

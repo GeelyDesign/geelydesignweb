@@ -6,9 +6,21 @@
 	                <div class="grid-sizer"></div>
 	                <div class="gutter-sizer"></div>
 	                <div class="item item-width2">
-	                    <h2>{{ page.how_we_do_it.title }}</h2>
-	                    <p>{{ page.how_we_do_it.text }}</p>
+	                    <h2>{{ page.gallery.title }}</h2>
+	                    <p>{{ page.gallery.text }}</p>
 	                </div>
+	                {% for image in page.gallery.images %}
+	                {% if image[1] == 2 %}
+	                <div class="item item-width2">
+	                {% else %}
+	                <div class="item">
+	                {% endif %}
+	                	<a href="{{ site.imageurl }}{{ image[0] }}">
+	                		<img src="{{ site.imageurl }}{{ image[0] }}" alt="" />
+	                	</a>
+	                </div>
+	                {% endfor %}
+	                <!--
 	                <div class="item item-width2">
 	                    <a href="assets/img/7004.jpg">
 	                      <img src="assets/img/7004.jpg" alt="">
@@ -44,6 +56,7 @@
 	                      <img src="https://unsplash.it/585/439?image=515" alt="">
 	                    </a>
 	                </div>
+	                -->
 				</div>
 			</div>
 		</div>

@@ -1,63 +1,46 @@
 ---
 layout: default
 lang: cn
-title: Home
+title: Hem
 permalink: /cn/
 
-header_image: assets/img/img1.jpg
-header_pretitle: In the hall of the
-header_title: Other King
-header_text: This is a simple hero unit, a simple jumbotron-style component for<br>
-             calling extra attention to featured content or information.
-header_btn_learn_text: Learn more
-header_btn_learn_href: '#'
-header_btn_dl_text: Download
-header_btn_dl_href: http://www.themeinthebox.com/ourtheme/mountain-king-bootstrap-template/
+standard:
+  image: 7138.jpg
+  divider: 6938.jpg
+  title: Who we are
+  text: Geely Design is a multi-cultural global organization under the leadership of Peter Horbury with four well-equipped studios in Shanghai, Gothenburg, Barcelona and Los Angeles with some 450 people in total. These design centers, with top class design teams and the latest tools in design development, are responsible for the creation of a unique design language for each of Geely's brands.
 
-feat: 
- box1:
-  title: Consectetur Risus
-  icon: typcn-pencil
-  text: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
- box2:
-  title: Ultricies Aenean
-  icon: typcn-camera-outline
-  text: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
- box3:
-  title: Cras Sollicitudin
-  icon: typcn-bookmark
-  text: Etiam porta sem malesuada magna mollis euismod. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum.
+map:
+  title: Where we are
+  box1:
+    title: Göteborg
+    text: In the heart of Sweden’s automotive cluster Gothenburg, we have concentrated all our efforts in the creation of the new brand LYNK & CO and all of its coming products. LYNK & CO has made its mark by sophisticated design and an appreciation of the connected world we live in.  
+    btn:
+      text: view gallery
+      href: ''
+  box2:
+    title: Shanghai
+    text: Shanghai is the beating heart for the Geely range where we are tapping into China’s 5,000 years of the visual arts to give our products a unique flavor in their detailing. Our team has established a studio and built a coherent brand identity at the same time as launching multiple products.
+    btn:
+      text: view gallery
+      href: ''
+  box3:
+    title: Barcelona & L.A.
+    text: Barcelona and Los Angeles are smaller “satellite studios” generating ideas for both our brands in two of the world’s most creative locations. The Barcelona team has also been responsible for designing the next London taxi, the TX5, giving an automotive icon a fresh yet different look.
+    btn:
+      text: view gallery
+      href: ''
 
-about_image: assets/img/img4.jpg
-about_title: Ligula Mattis Ornare Ultricies
-about_subtitle: Pellentesque Cursus Amet Parturient Etiam
-about_text: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-about_box1_title: Ultricies
-about_box1_digits: [2, 3, ',', 5, 7, 8]
-about_box2_title: Fermentum
-about_box2_digits: [1, 2, ',', 7, 0, 2]
+gallery:
+  title: What we do
+  text: In an inspiring studio environment we build, maintain and utilize a top-class design team – based on synergetic collaboration. With best in class processes and tools we challenge preconceptions and deliver design of premium brand offer to the customers.
+  images: [
+    [ 7138.jpg , 2 ],
+    [ 6938.jpg , 2 ],
+    [ 7953.jpg , 1 ],
+    [ 7004.jpg , 1 ]
+  ]
 
-news_title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-news_text: <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec sed odio dui. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.</p><p>Donec id elit non mi porta gravida at eget metus. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue.</p>
-news_btn_text: Take a look
-news_btn_href: '#'
-news_image: assets/img/img3.jpg
-news_image_href: '#'
-
-history_image: assets/img/img6.jpg
-history_lead: Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-history_text: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-history_name: Fermentum Dapibus
-history_small: Nibh Etiam Risus Bibendum<br>Nullam id dolor id nibh ultricies vehicula ut id elit.
-
-contact_image: assets/img/img2.jpg
-contact_title: Maecenas sed diam eget risus varius<br> blandit sit amet non magna.
-contact_text: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-
-paralax_image: assets/img/img5.jpg
-
-footer_logo: Your Logo
-footer_text: © 2016 Your Company. Designed and Developed by
-footer_link: http://www.themeinthebox.com
-footer_link_text: ThemeintheBox.com
+prefooter:
+  image: 7974.jpg
 ---

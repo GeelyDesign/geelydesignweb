@@ -10,6 +10,7 @@ exclude:
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /:title/
 siteurl: https://hiqgoteborg.github.io/geelydesign.github.io/
+imageurl: https://hiqgoteborg.github.io/geelydesign.github.io/assets/img/
 
 gems:
   - jekyll-feed
@@ -25,13 +26,13 @@ facebook: https://www.facebook.com/ThemeInTheBox/
 twitter: https://twitter.com/ThemeintheBox
 
 header:
-  image: assets/img/7974.jpg
+  image: 7974.jpg
   menu:
     en: English
     cn: 中文
 
 prefooter:
-  image: assets/img/7974.jpg
+  image: 7974.jpg
 
 footer:
   copy: 2017 Geely Design
