@@ -1,0 +1,19 @@
+{% for item in page.portfolio %}
+
+	{% if item.type == 'image' %}
+
+		<section class="portfolio image" style="background-image: url('{{ site.imageurl }}{{ item.image }}');">
+		</section>
+
+	{% else %}
+
+		<section class="portfolio quote">
+			<blockquote>
+				"{{ item.text }}"<br />
+				- {{ item.name }}
+			</blockquote>
+		</section>
+
+	{% endif %}
+
+{% endfor %}

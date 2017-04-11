@@ -1,42 +1,59 @@
 <footer class="section black">
     <div class="container">
-        <div class="row flex">
-            <div class="column flex col-xs-12 col-sm-4">
+        <div class="row top">
+            <div class="column col-xs-12">
+                <h2>{{ site.footer.title[page.lang] }}</h2>
+                <a href="{{ site.footer.btn.contact.href[page.lang] }}" class="button float">
+                    {{ site.footer.btn.contact.text[page.lang] }}
+                </a>
+                <a href="{{ site.footer.btn.join.href[page.lang] }}" class="button float">
+                    {{ site.footer.btn.join.text[page.lang] }}
+                </a>
+            </div>
+        </div>
+        <div class="row middle">
+            <div class="column col-xs-12 col-sm-3">
                 <h3>{{ site.footer.box1.title[page.lang] }}</h3>
                 <p>
-                    {{ site.footer.box1.address[page.lang] }}<br>
-                    {{ site.footer.box1.phone[page.lang] }}<br>
-                    {{ site.footer.box1.email[page.lang] }}<br>
-                    {{ site.footer.box1.other[page.lang] }}
+                    {{ site.footer.box1.company[page.lang] }}<br>
+                    {{ site.footer.box1.address.street[page.lang] }}<br>
+                    {{ site.footer.box1.address.zip[page.lang] }}<br>
+                    {{ site.footer.box1.address.country[page.lang] }}
                 </p>
-                <a href="{{ site.footer.box1.btn.href[page.lang] }}" class="button">{{ site.footer.box1.btn.text[page.lang] }}</a>
             </div>
-            <div class="column flex col-xs-12 col-sm-4">
+            <div class="column col-xs-12 col-sm-3">
                 <h3>{{ site.footer.box2.title[page.lang] }}</h3>
                 <p>
-                    {{ site.footer.box2.address[page.lang] }}<br>
-                    {{ site.footer.box2.phone[page.lang] }}<br>
-                    {{ site.footer.box2.email[page.lang] }}<br>
-                    {{ site.footer.box2.other[page.lang] }}
+                    {{ site.footer.box2.address.street[page.lang] }}<br>
+                    {{ site.footer.box2.address.zip[page.lang] }}<br>
+                    {{ site.footer.box2.address.country[page.lang] }}
                 </p>
-                <a href="{{ site.footer.box2.btn.href[page.lang] }}" class="button">{{ site.footer.box2.btn.text[page.lang] }}</a>
             </div>
-            <div class="column flex col-xs-12 col-sm-4">
+            <div class="column col-xs-12 col-sm-3">
                 <h3>{{ site.footer.box3.title[page.lang] }}</h3>
                 <p>
-                    {{ site.footer.box3.address[page.lang] }}<br>
-                    {{ site.footer.box3.phone[page.lang] }}<br>
-                    {{ site.footer.box3.email[page.lang] }}<br>
-                    {{ site.footer.box3.other[page.lang] }}
+                    {{ site.footer.box3.address.street[page.lang] }}<br>
+                    {{ site.footer.box3.address.zip[page.lang] }}<br>
+                    {{ site.footer.box3.address.country[page.lang] }}
                 </p>
-                <a href="{{ site.footer.box3.btn.href[page.lang] }}" class="button">{{ site.footer.box3.btn.text[page.lang] }}</a>
+            </div>
+            <div class="column col-xs-12 col-sm-3">
+                <h3>{{ site.footer.box4.title[page.lang] }}</h3>
+                <p>
+                    {{ site.footer.box4.address.street[page.lang] }}<br>
+                    {{ site.footer.box4.address.zip[page.lang] }}<br>
+                    {{ site.footer.box4.address.country[page.lang] }}
+                </p>
             </div>
         </div>
         <div class="row bottom">
-            <div class="column col-xs-12 col-sm-6">
+            <div class="column col-xs-12 col-sm-4 copy">
                 <p>&copy; {{ site.footer.copy }}</p>
             </div>
-            <div class="column col-xs-12 col-sm-6 text-right">
+            <div class="column col-xs-12 col-sm-4 text-center name">
+                <p>{{ site.footer.name }}</p>
+            </div>
+            <div class="column col-xs-12 col-sm-4 text-right social">
                 <p>{{ site.footer.social }}</p>
             </div>
         </div>

@@ -35,76 +35,88 @@ prefooter:
   image: 7974.jpg
 
 footer:
+  title:
+    en: Keep in touch
+    cn: Kontakta oss
+
   copy: 2017 Geely Design
+
+  name: Geely Group
 
   social: SOCIAL MEDIA
 
+  btn:
+    contact:
+      text:
+        en: say hi
+        cn: säg hej
+      href:
+        en: ''
+        cn: ''
+    join:
+      text:
+        en: join us
+        cn: gå med
+      href:
+        en: ''
+        cn: ''
+
   box1:
     title:
-      en: Gothenburg
-      cn: Göteborg
+      en: Geely Design China
+      cn: Geely Design China
+    company:
+      en: Ningbo Geely Automotive Research & Development Co. Ltd Shanghai Sub-Company
+      cn: Ningbo Geely Automotive Research & Development Co. Ltd Shanghai Sub-Company
     address:
-      en: Adress
-      cn: Adress
-    phone:
-      en: Phone
-      cn: Telefon
-    email:
-      en: Email
-      cn: E-post
-    other:
-      en: Whathaveyou
-      cn: Vadhardu
-    btn:
-      text:
-        en: join us
-        cn: gå med
-      href:
-        en: ''
-        cn: ''
+      street:
+        en: 388 Guo Zhan Road
+        cn: 388 Guo Zhan Road
+      zip:
+        en: Pu Dong District, Shanghai
+        cn: Pu Dong District, Shanghai
+      country:
+        en: P.R China 200126
+        cn: P.R China 200126
   box2:
     title:
-      en: Shanghai
-      cn: Shanghai
+      en: Geely Design Europe
+      cn: Geely Design Europe
     address:
-      en: Adress
-      cn: Adress
-    phone:
-      en: Phone
-      cn: Telefon
-    email:
-      en: Email
-      cn: E-post
-    other:
-      en: Whathaveyou
-      cn: Vadhardu
-    btn:
-      text:
-        en: join us
-        cn: gå med
-      href:
-        en: ''
-        cn: ''
+      street:
+        en: Valdemar Noréns Gata 3
+        cn: Valdemar Noréns Gata 3
+      zip:
+        en: SE - 417 55 Göteborg
+        cn: SE - 417 55 Göteborg
+      country:
+        en: Sweden
+        cn: Sweden
   box3:
     title:
-      en: Barcelona & L.A.
-      cn: Barcelona & L.A.
+      en: Geely Design Barcelona
+      cn: Geely Design Barcelona
     address:
-      en: Adress
-      cn: Adress
-    phone:
-      en: Phone
-      cn: Telefon
-    email:
-      en: Email
-      cn: E-post
-    other:
-      en: Whathaveyou
-      cn: Vadhardu
-    btn:
-      text:
-        en: join us
-        cn: gå med
-      href:
-        en: ''
-        cn: ''
+      street:
+        en: Diputacio 246
+        cn: Diputacio 246
+      zip:
+        en: 8007 Barcelona
+        cn: 8007 Barcelona
+      country:
+        en: Spain
+        cn: Spain
+  box4:
+    title:
+      en: Geely Design Los Angeles
+      cn: Geely Design Los Angeles
+    address:
+      street:
+        en: 700 Via Alondra
+        cn: 700 Via Alondra
+      zip:
+        en: 93012 Los Angeles CA
+        cn: 93012 Los Angeles CA
+      country:
+        en: United States
+        cn: United States

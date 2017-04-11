@@ -1,4 +1,4 @@
-<section id="how-we-do-it" class="section black">
+<section id="gallery" class="section trans">
 	<div class="container">
 		<div class="row">
 			<div class="column col-xs-12">
@@ -10,13 +10,13 @@
 	                    <p>{{ page.gallery.text }}</p>
 	                </div>
 	                {% for image in page.gallery.images %}
-	                {% if image[1] == 2 %}
+	                {% if image.width == 2 %}
 	                <div class="item item-width2">
 	                {% else %}
 	                <div class="item">
 	                {% endif %}
-	                	<a href="{{ site.imageurl }}{{ image[0] }}">
-	                		<img src="{{ site.imageurl }}{{ image[0] }}" alt="" />
+	                	<a href="{{ site.imageurl }}{{ image.image }}">
+	                		<img src="{{ site.imageurl }}{{ image.image }}" alt="" />
 	                	</a>
 	                </div>
 	                {% endfor %}
