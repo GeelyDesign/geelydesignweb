@@ -5,13 +5,13 @@
 				<h2>{{ page.standard.title }}</h2>
 				<p>{{ page.standard.text }}</p>
 			</div>
+			{% if page.standard.image %}
 			<div class="column col-xs-12 col-sm-6">
-				{% if page.standard.image %}
 				<figure class="float">
 					<img class="float" src="{{ site.imageurl }}{{ page.standard.image }}" />
 				</figure>
-				{% endif %}
 			</div>
+			{% endif %}
 		</div>
 	</div>
 </section>

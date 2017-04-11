@@ -3,10 +3,10 @@
         <div class="row top">
             <div class="column col-xs-12">
                 <h2>{{ site.footer.title[page.lang] }}</h2>
-                <a href="{{ site.footer.btn.contact.href[page.lang] }}" class="button float">
+                <a href="mailto:{{ site.footer.btn.contact.href }}" class="button float">
                     {{ site.footer.btn.contact.text[page.lang] }}
                 </a>
-                <a href="{{ site.footer.btn.join.href[page.lang] }}" class="button float">
+                <a href="{{ site.footer.btn.join.href }}" class="button float">
                     {{ site.footer.btn.join.text[page.lang] }}
                 </a>
             </div>
@@ -51,7 +51,7 @@
                 <p>&copy; {{ site.footer.copy }}</p>
             </div>
             <div class="column col-xs-12 col-sm-4 text-center name">
-                <p>{{ site.footer.name }}</p>
+                <a href="">{{ site.footer.name }}</a>
             </div>
             <div class="column col-xs-12 col-sm-4 text-right social">
                 <p>{{ site.footer.social }}</p>

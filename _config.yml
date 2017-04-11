@@ -50,16 +50,12 @@ footer:
       text:
         en: say hi
         cn: säg hej
-      href:
-        en: ''
-        cn: ''
+      href: info@geelydesign.com
     join:
       text:
         en: join us
         cn: gå med
-      href:
-        en: ''
-        cn: ''
+      href: ''
 
   box1:
     title:

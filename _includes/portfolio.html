@@ -2,16 +2,29 @@
 
 	{% if item.type == 'image' %}
 
-		<section class="portfolio image" style="background-image: url('{{ site.imageurl }}{{ item.image }}');">
+		<section class="portfolio image">
+			<div class="container">
+				<div class="row">
+					<div class="column col-xs-12">
+						<img src="{{ site.imageurl }}{{ item.image }}" />
+					</div>
+				</div>
+			</div>
 		</section>
 
 	{% else %}
 
 		<section class="portfolio quote">
-			<blockquote>
-				"{{ item.text }}"<br />
-				- {{ item.name }}
-			</blockquote>
+			<div class="container">
+				<div class="row">
+					<div class="column col-xs-12">
+						<blockquote>
+							"{{ item.text }}"<br />
+							- {{ item.name }}
+						</blockquote>
+					</div>
+				</div>
+			</div>
 		</section>
 
 	{% endif %}

@@ -7,17 +7,17 @@ permalink: /geely-design-sweden/
 subtitle: Europe
 
 standard:
-  title: Geely Design Sweden
+  title: Geely Design Europe
   text: The fast development of our Gothenburg studio happened together with the launch of Lynk & Co. A new brand that is tailored to young, urban, tech-savvy customers. Today we are more than 200 people who work with coming LYNK & CO products.
 
 portfolio: [
   {
     type: image,
-    image: 7004.jpg
+    image: 2476.jpg
   },
   {
     type: image,
-    image: 7004.jpg
+    image: 2476.jpg
   },
   {
     type: quote,
@@ -26,7 +26,7 @@ portfolio: [
   },
   {
     type: image,
-    image: 7004.jpg
+    image: 2476.jpg
   }
 ]
 ---
