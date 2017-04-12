@@ -571,12 +571,14 @@ footer .social {
 footer .social ul {
     float: right;
     margin: 0;
+    padding: 0;
     overflow: hidden;
 }
 
 footer .social ul > li {
     display: block;
     float: left;
+    list-style: none;
     margin-left: 30px;
 }
 
@@ -597,6 +599,16 @@ footer .social ul > li.wechat > a {background-image: url('../img/wechat.svg');}
     footer .bottom .column {
         margin-bottom: 0;
         text-align: center !important;
+    }
+    footer .social ul {
+        display: block;
+        float: none;
+        margin: 10px auto 0;
+    }
+    footer .social ul > li {
+        display: inline-block;
+        float: none;
+        margin: 0 15px;
     }
 }
 
