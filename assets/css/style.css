@@ -577,7 +577,13 @@ footer .social {
 
 /* BLURBS */
 
-@media ( min-height: 768px ) {
+@media ( min-width: 992px ) {
+    #blurbs {
+        padding-top: 100px;
+    }
+}
+
+@media ( min-width: 1025px ) {
     #blurbs {
         padding-top: 250px;
     }

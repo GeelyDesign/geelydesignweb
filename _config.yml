@@ -26,13 +26,13 @@ facebook: https://www.facebook.com/ThemeInTheBox/
 twitter: https://twitter.com/ThemeintheBox
 
 header:
-  image: 7974.jpg
+  image: landing_image.jpg
   menu:
     en: English
     cn: 中文
 
 prefooter:
-  image: 7974.jpg
+  image: bg_02.jpg
 
 footer:
   title:
