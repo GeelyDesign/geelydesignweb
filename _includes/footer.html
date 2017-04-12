@@ -51,10 +51,20 @@
                 <p>&copy; {{ site.footer.copy }}</p>
             </div>
             <div class="column col-xs-12 col-sm-4 text-center name">
-                <a href="">{{ site.footer.name }}</a>
+                <a href="{{ site.footer.name.href }}">{{ site.footer.name.text[page.lang] }}</a>
             </div>
             <div class="column col-xs-12 col-sm-4 text-right social">
-                <p>{{ site.footer.social }}</p>
+                <ul>
+                    <li class="wechat">
+                        <a href=""></a>
+                    </li>
+                    <li class="facebook">
+                        <a href=""></a>
+                    </li>
+                    <li class="linkedin">
+                        <a href=""></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>

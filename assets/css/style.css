@@ -568,6 +568,31 @@ footer .social {
     padding-top: 0 !important;
 }
 
+footer .social ul {
+    float: right;
+    margin: 0;
+    overflow: hidden;
+}
+
+footer .social ul > li {
+    display: block;
+    float: left;
+    margin-left: 30px;
+}
+
+footer .social ul > li > a {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+
+footer .social ul > li.facebook > a {background-image: url('../img/facebook.svg');}
+footer .social ul > li.linkedin > a {background-image: url('../img/linkedin.svg');}
+footer .social ul > li.wechat > a {background-image: url('../img/wechat.svg');}
+
 @media ( max-width: 480px ) {
     footer .bottom .column {
         margin-bottom: 0;
