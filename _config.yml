@@ -9,8 +9,8 @@ exclude:
 
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /:title/
-siteurl: https://hiqgoteborg.github.io/geelydesign.github.io/geely-design-sweden/
-imageurl: https://hiqgoteborg.github.io/geelydesign.github.io/geely-design-sweden/ssets/img/
+siteurl: https://hiqgoteborg.github.io/geelydesign.github.io/
+imageurl: https://hiqgoteborg.github.io/geelydesign.github.io/assets/img/
 
 gems:
   - jekyll-feed
