@@ -1,30 +1,3 @@
-<!--
-<header id="fixed-header">
-    <div class="container">
-        <div class="row">
-            <div class="column col-xs-12 text-right">
-                <ul class="menu">
-                    <li>
-                        {% if page.lang == 'cn' %}
-                        <a href="{{ site.imageurl }}cn" class="current">{{ site.header.menu.cn }}</a>
-                        {% else %}
-                        <a href="{{ site.imageurl }}cn">{{ site.header.menu.cn }}</a>
-                        {% endif %}
-                    </li>
-                    <li>
-                        {% if page.lang == 'en' %}
-                        <a href="{{ site.imageurl }}cn" class="current">{{ site.header.menu.en }}</a>
-                        {% else %}
-                        <a href="{{ site.imageurl }}cn">{{ site.header.menu.en }}</a>
-                        {% endif %}
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</header>
--->
-
 {% if page.layout != 'default' %}
 <header id="home" class="half">
 {% else %}
@@ -57,9 +30,9 @@
                         </li>
                         <li>
                             {% if page.lang == 'en' %}
-                            <a href="{{ site.siteurl }}cn" class="current">English</a>
+                            <a href="{{ site.siteurl }}" class="current">English</a>
                             {% else %}
-                            <a href="{{ site.siteurl }}cn">English</a>
+                            <a href="{{ site.siteurl }}">English</a>
                             {% endif %}
                         </li>
                     </ul>

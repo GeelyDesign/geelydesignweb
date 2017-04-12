@@ -347,7 +347,9 @@ img {
     padding: 0 9px;
 }
 
-.button:hover {
+.button:hover,
+.button:focus,
+.button:active {
     background-color: #fff;
     color: #101820;
     text-decoration: none;

@@ -1,11 +1,36 @@
-setTimeout(function(){
+/*setTimeout(function(){
   $('.odometer').each(function(){
     var number = $(this).data('number');
     $(this).html(number);
   });
-});
+});*/
 
 (function($){
+
+	//===================
+	//  Masonry
+	//===================
+
+	$(window).load(function(){
+
+		var $grid = $('.masonry').masonry({
+			columnWidth: '.grid-sizer',
+			gutter: '.gutter-sizer',
+			itemSelector: '.item'
+		});
+
+		$grid.masonry('on', 'layoutComplete', function(){
+			$(window).scroll(function(){
+				var _window = $(this),
+					_window_top = _window.scrollTop();
+
+				//play_pause(_window_top);
+			});
+		});
+
+		$grid.masonry();
+
+	});
 
 	//===================
 	//  Get job positions
@@ -66,7 +91,7 @@ setTimeout(function(){
 	//  Sticky header
 	//===================
 
-	var _after_header = $('header#home').next(),
+	/*var _after_header = $('header#home').next(),
 		_after_header_top = _after_header.offset().top,
 		_header = $('#fixed-header');
 
@@ -80,7 +105,7 @@ setTimeout(function(){
 		else {
 			_header.fadeOut(400);
 		}
-	});
+	});*/
 
 	//===================
 	//  Video
@@ -102,48 +127,23 @@ setTimeout(function(){
 	};*/
 
 	//===================
-	//  Masonry
-	//===================
-
-	$(window).load(function(){
-
-		var $grid = $('.masonry').masonry({
-			columnWidth: '.grid-sizer',
-			gutter: '.gutter-sizer',
-			itemSelector: '.item'
-		});
-
-		$grid.masonry('on', 'layoutComplete', function(){
-			$(window).scroll(function(){
-				var _window = $(this),
-					_window_top = _window.scrollTop();
-
-				//play_pause(_window_top);
-			});
-		});
-
-		$grid.masonry();
-
-	});
-
-	//===================
 	//  Magnific Popup
 	//===================
 
-	$(document).ready(function(){
+	/*$(document).ready(function(){
 		$('.image-gallery').magnificPopup({
 			delegate: '.item a',
 			type: 'image'
 		});
 
 		new WOW().init();
-	});
+	});*/
 
 	//===================
 	//  Scroller
 	//===================
 
-	$('nav.pushy a[href*=#]').click(function(){
+	/*$('nav.pushy a[href*=#]').click(function(){
 
 		if ( location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname ) {
 
@@ -165,6 +165,6 @@ setTimeout(function(){
 
 		}
 
-	});
+	});*/
 
 })(jQuery);
