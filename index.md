@@ -3,7 +3,7 @@ layout: default
 lang: en
 
 standard:
-  image: grid_01.jpg
+  image: 7953.jpg
   title: Who we are
   text: Geely Design is a multi-cultural global organization under the leadership of Peter Horbury with four well-equipped studios in Shanghai, Gothenburg, Barcelona and Los Angeles with some 450 people in total. These design centers, with top class design teams and the latest tools in design development, are responsible for the creation of a unique design language for each of Geely's brands.
 
