@@ -21,8 +21,8 @@ portfolio: [
   },
   {
     type: quote,
-    text: We prefer to see competition between ideas rather than people,
-  name: Andreas Nilsson, SVP Geely Design Sweden 
+    text: 'It mustn’t look like a van, even though the package implies that would be the most sensible shape.',
+    name: 'David Ancona, Design Director London Taxi'
   },
   {
     type: image,
@@ -34,8 +34,8 @@ portfolio: [
   },
   {
     type: quote,
-    text: We prefer to see competition between ideas rather than people,
-  name: Andreas Nilsson, SVP Geely Design Sweden 
+    text: 'Variety is really important. Automotive design can get incestuous – you forget there’s a world out there facing design problems much more fundamental than what radius to put on an air vent.',
+    name: David Ancona 
   },
   {
     type: image,
