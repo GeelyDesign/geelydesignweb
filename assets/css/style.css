@@ -704,6 +704,10 @@ footer .social ul > li.wechat > a {background-image: url('../img/social/wechat.s
     z-index: 99;
 }
 
+.portfolio.quote blockquote span {
+    padding-left: 30px;
+}
+
 @media ( max-width: 768px ) {
     .portfolio.quote blockquote {
         border-bottom: solid 2px #fff;

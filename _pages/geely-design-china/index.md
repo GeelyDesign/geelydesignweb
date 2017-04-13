@@ -21,8 +21,8 @@ portfolio: [
   },
   {
     type: quote,
-    text: We prefer to see competition between ideas rather than people,
-    name: Andreas Nilsson, SVP Geely Design Sweden 
+    text: 'One day I got a package containing a poem and a note from the translator saying it had been written by Chairman Li on his way home from Sweden to China, when he saw the moon through the window of the aeroplane. It’s pretty hard to imagine the people I worked for at Ford sending me poetry. It’s really fantastic to have that type of boss.',
+    name: 'Peter Horbury, Executive Vice President Geely Design'
   },
   {
     type: image,
@@ -34,8 +34,8 @@ portfolio: [
   },
   {
     type: quote,
-    text: We prefer to see competition between ideas rather than people,
-    name: Andreas Nilsson, SVP Geely Design Sweden 
+    text: 'We’re asking where our brand is heading, not just in the tangible aspects but the emotional aspects.',
+    name: 'Danny Du, Creative Director Geely Design China'
   },
   {
     type: image,
@@ -47,8 +47,8 @@ portfolio: [
   },
   {
     type: quote,
-    text: We prefer to see competition between ideas rather than people,
-    name: Andreas Nilsson, SVP Geely Design Sweden 
+    text: 'We went down many different paths exploring the vast wonderful history of this country.',
+    name: 'Justin Scully, Interior Design Chief Geely Design China'
   },
   {
     type: image,
@@ -60,8 +60,8 @@ portfolio: [
   },
   {
     type: quote,
-    text: We prefer to see competition between ideas rather than people,
-    name: Andreas Nilsson, SVP Geely Design Sweden 
+    text: 'With the population that we’ve got it is an absolute necessity, and a brand pillar, to offer the luxury of choice.',
+    name: Danny Du 
   },
   {
     type: image,
@@ -73,8 +73,8 @@ portfolio: [
   },
   {
     type: quote,
-    text: We prefer to see competition between ideas rather than people,
-    name: Andreas Nilsson, SVP Geely Design Sweden 
+    text: 'We try to draw a lot from Chinese culture and bring it into the product with a feeling of restrained elegance, as well as a Chinese sense of flamboyance.',
+    name: Justin Scully 
   },
   {
     type: image,
