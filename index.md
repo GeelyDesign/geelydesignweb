@@ -18,7 +18,7 @@ blurbs:
       href: geely-design-china
   box2:
     title: Gothenburg
-    text: In the heart of Sweden’s automotive cluster Gothenburg, we have concentrated all our efforts in the creation of the new brand LYNK & CO and all of its coming products. LYNK & CO has made its mark by sophisticated design and an appreciation of the connected world we live in.  
+    text: In the heart of Sweden’s automotive cluster Gothenburg, we have concentrated all our efforts in the creation of the new brand in the Geely family, LYNK & CO and all of its coming products. LYNK & CO has made its mark by sophisticated design and an appreciation of the connected world we live in.  
     btn:
       text: view gallery
       href: geely-design-europe
