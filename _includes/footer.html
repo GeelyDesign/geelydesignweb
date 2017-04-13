@@ -12,6 +12,8 @@
             </div>
         </div>
         <div class="row middle">
+
+            {% if page.layout == 'default' or page.subtitle == 'Shanghai' %}
             <div class="column col-xs-12 col-sm-3">
                 <h3>{{ site.footer.box1.title[page.lang] }}</h3>
                 <p>
@@ -21,6 +23,9 @@
                     {{ site.footer.box1.address.country[page.lang] }}
                 </p>
             </div>
+            {% endif %}
+
+            {% if page.layout == 'default' or page.subtitle == 'Europe' %}
             <div class="column col-xs-12 col-sm-3">
                 <h3>{{ site.footer.box2.title[page.lang] }}</h3>
                 <p>
@@ -29,6 +34,9 @@
                     {{ site.footer.box2.address.country[page.lang] }}
                 </p>
             </div>
+            {% endif %}
+
+            {% if page.layout == 'default' or page.subtitle == 'Barcelona' %}
             <div class="column col-xs-12 col-sm-3">
                 <h3>{{ site.footer.box3.title[page.lang] }}</h3>
                 <p>
@@ -37,6 +45,9 @@
                     {{ site.footer.box3.address.country[page.lang] }}
                 </p>
             </div>
+            {% endif %}
+
+            {% if page.layout == 'default' %}
             <div class="column col-xs-12 col-sm-3">
                 <h3>{{ site.footer.box4.title[page.lang] }}</h3>
                 <p>
@@ -45,6 +56,8 @@
                     {{ site.footer.box4.address.country[page.lang] }}
                 </p>
             </div>
+            {% endif %}
+
         </div>
         <div class="row bottom">
             <div class="column col-xs-12 col-sm-4 copy">

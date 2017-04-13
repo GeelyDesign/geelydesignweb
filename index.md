@@ -3,12 +3,12 @@ layout: default
 lang: en
 
 standard:
-  image: 7953.jpg
+  image: inline/7953.jpg
   title: Who we are
   text: Geely Design is a multi-cultural global organization under the leadership of Peter Horbury with four well-equipped studios in Shanghai, Gothenburg, Barcelona and Los Angeles with some 450 people in total. These design centers, with top class design teams and the latest tools in design development, are responsible for the creation of a unique design language for each of Geely's brands.
 
 blurbs:
-  image: bg_01.jpg
+  image: bg/bg_01.jpg
   title: Where we are
   box1:
     title: Shanghai
@@ -34,35 +34,32 @@ gallery:
   text: In an inspiring studio environment we build, maintain and utilize a top-class design team – based on synergetic collaboration. With best in class processes and tools we challenge preconceptions and deliver design of premium brand offer to the customers.
   images: [
     {
-      image: grid_02.jpg,
+      image: grid/grid_02.jpg,
       width: 2
     },
     {
-      image: grid_08.jpg,
+      image: grid/grid_08.jpg,
       width: 2
     },
     {
-      image: grid_03.jpg,
+      image: grid/grid_03.jpg,
       width: 2
     },
     {
-      image: grid_05.jpg,
+      image: grid/grid_05.jpg,
       width: 1
     },
     {
-      image: grid_07.jpg,
+      image: grid/grid_07.jpg,
       width: 1
     },
     {
-      image: grid_06.jpg,
+      image: grid/grid_06.jpg,
       width: 1
     },
     {
-      image: grid_04.jpg,
+      image: grid/grid_04.jpg,
       width: 2
     },
   ]
-
-prefooter:
-  image: 7974.jpg
 ---

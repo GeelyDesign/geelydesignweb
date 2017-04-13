@@ -591,9 +591,9 @@ footer .social ul > li > a {
     width: 30px;
 }
 
-footer .social ul > li.facebook > a {background-image: url('../img/facebook.svg');}
-footer .social ul > li.linkedin > a {background-image: url('../img/linkedin.svg');}
-footer .social ul > li.wechat > a {background-image: url('../img/wechat.svg');}
+footer .social ul > li.facebook > a {background-image: url('../img/social/facebook.svg');}
+footer .social ul > li.linkedin > a {background-image: url('../img/social/linkedin.svg');}
+footer .social ul > li.wechat > a {background-image: url('../img/social/wechat.svg');}
 
 @media ( max-width: 480px ) {
     footer .bottom .column {
