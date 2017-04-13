@@ -1,13 +1,13 @@
 ---
 layout: gallery
 lang: en
-title: Geely Design Shanghai
-permalink: /geely-design-shanghai/
+title: Geely Design China
+permalink: /geely-design-china/
 
-subtitle: Shanghai
+subtitle: China
 
 standard:
-  title: Geely Design Shanghai
+  title: Geely Design China
   text: China has spans of rich and diverse culture to be inspired by as Geely Auto develops as a proud Chinese brand. With over 30 ongoing projects our Geely Design China studio has grown to over 200 people.
 
 portfolio: [
@@ -22,7 +22,7 @@ portfolio: [
   {
     type: quote,
     text: We prefer to see competition between ideas rather than people,
-  name: Andreas Nilsson, SVP Geely Design Sweden 
+    name: Andreas Nilsson, SVP Geely Design Sweden 
   },
   {
     type: image,
@@ -35,7 +35,7 @@ portfolio: [
   {
     type: quote,
     text: We prefer to see competition between ideas rather than people,
-  name: Andreas Nilsson, SVP Geely Design Sweden 
+    name: Andreas Nilsson, SVP Geely Design Sweden 
   },
   {
     type: image,
@@ -48,7 +48,7 @@ portfolio: [
   {
     type: quote,
     text: We prefer to see competition between ideas rather than people,
-  name: Andreas Nilsson, SVP Geely Design Sweden 
+    name: Andreas Nilsson, SVP Geely Design Sweden 
   },
   {
     type: image,
@@ -61,7 +61,7 @@ portfolio: [
   {
     type: quote,
     text: We prefer to see competition between ideas rather than people,
-  name: Andreas Nilsson, SVP Geely Design Sweden 
+    name: Andreas Nilsson, SVP Geely Design Sweden 
   },
   {
     type: image,
@@ -74,7 +74,7 @@ portfolio: [
   {
     type: quote,
     text: We prefer to see competition between ideas rather than people,
-  name: Andreas Nilsson, SVP Geely Design Sweden 
+    name: Andreas Nilsson, SVP Geely Design Sweden 
   },
   {
     type: image,

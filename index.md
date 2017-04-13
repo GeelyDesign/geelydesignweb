@@ -15,7 +15,7 @@ blurbs:
     text: Shanghai is the beating heart for the Geely range where we are tapping into China’s 5,000 years of the visual arts to give our products a unique flavor in their detailing. Our team has established a studio and built a coherent brand identity at the same time as launching multiple products.
     btn:
       text: view gallery
-      href: geely-design-shanghai
+      href: geely-design-china
   box2:
     title: Gothenburg
     text: In the heart of Sweden’s automotive cluster Gothenburg, we have concentrated all our efforts in the creation of the new brand LYNK & CO and all of its coming products. LYNK & CO has made its mark by sophisticated design and an appreciation of the connected world we live in.  
