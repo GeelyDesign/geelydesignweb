@@ -8,7 +8,7 @@ subtitle: Barcelona
 
 standard:
   title: Geely Design Barcelona
-  text: The fast development of our Gothenburg studio happened together with the launch of Lynk & Co. A new brand that is tailored to young, urban, tech-savvy customers. Today we are more than 200 people who work with coming LYNK & CO products.
+  text: Our Barcelona studio is creating the next-generation taxis for London by keeping elements of the taxi’s original design while at the same time reinventing the icon by adding a large dose of creativity. 
 
 portfolio: [
   {

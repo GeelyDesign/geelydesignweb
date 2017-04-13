@@ -8,7 +8,7 @@ subtitle: Shanghai
 
 standard:
   title: Geely Design Shanghai
-  text: The fast development of our Gothenburg studio happened together with the launch of Lynk & Co. A new brand that is tailored to young, urban, tech-savvy customers. Today we are more than 200 people who work with coming LYNK & CO products.
+  text: China has spans of rich and diverse culture to be inspired by as Geely Auto develops as a proud Chinese brand. With over 30 ongoing projects our Geely Design China studio has grown to over 200 people.
 
 portfolio: [
   {
