@@ -13,11 +13,11 @@ standard:
 portfolio: [
   {
     type: image,
-    image: gallery/europe/gallery_europe_04.jpg
+    image: gallery/europe/gallery_europe_01.jpg
   },
   {
     type: image,
-    image: gallery/europe/gallery_europe_05.jpg
+    image: gallery/europe/gallery_europe_04.jpg
   },
   {
     type: quote,
@@ -26,11 +26,11 @@ portfolio: [
   },
   {
     type: image,
-    image: gallery/europe/gallery_europe_06.jpg
+    image: gallery/europe/gallery_europe_05.jpg
   },
   {
     type: image,
-    image: gallery/europe/gallery_europe_07.jpg
+    image: gallery/europe/gallery_europe_06.jpg
   },
   {
     type: quote,
@@ -39,11 +39,11 @@ portfolio: [
   },
   {
     type: image,
-    image: gallery/europe/gallery_europe_08.jpg
+    image: gallery/europe/gallery_europe_07.jpg
   },
   {
     type: image,
-    image: gallery/europe/gallery_europe_09.jpg
+    image: gallery/europe/gallery_europe_08.jpg
   },
   {
     type: quote,
@@ -52,11 +52,11 @@ portfolio: [
   },
   {
     type: image,
-    image: gallery/europe/gallery_europe_10.jpg
+    image: gallery/europe/gallery_europe_09.jpg
   },
   {
     type: image,
-    image: gallery/europe/gallery_europe_11.jpg
+    image: gallery/europe/gallery_europe_10.jpg
   },
   {
     type: quote,
@@ -65,11 +65,11 @@ portfolio: [
   },
   {
     type: image,
-    image: gallery/europe/gallery_europe_12.jpg
+    image: gallery/europe/gallery_europe_11.jpg
   },
   {
     type: image,
-    image: gallery/europe/gallery_europe_13.jpg
+    image: gallery/europe/gallery_europe_12.jpg
   },
   {
     type: quote,
@@ -78,16 +78,20 @@ portfolio: [
   },
   {
     type: image,
-    image: gallery/europe/gallery_europe_14.jpg
+    image: gallery/europe/gallery_europe_13.jpg
   },
   {
     type: image,
-    image: gallery/europe/gallery_europe_15.jpg
+    image: gallery/europe/gallery_europe_14.jpg
   },
   {
     type: quote,
     text: 'We want to challenge the conventional relationship between the car and the human being.',
     name: 'Lars Falk, Head of Interior Design'
+  },
+  {
+    type: image,
+    image: gallery/europe/gallery_europe_15.jpg
   },
   {
     type: image,
