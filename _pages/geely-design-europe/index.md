@@ -17,12 +17,25 @@ portfolio: [
   },
   {
     type: image,
-    image: gallery/europe/gallery_europe_04.jpg
+    image: gallery/europe/gallery_europe_02.jpg
   },
   {
     type: quote,
     text: 'We prefer to see competition between ideas rather than people.',
     name: 'Andreas Nilsson, Head of Design for LYNK & CO'
+  },
+  {
+    type: image,
+    image: gallery/europe/gallery_europe_03.jpg
+  },
+  {
+    type: image,
+    image: gallery/europe/gallery_europe_04.jpg
+  },
+  {
+    type: quote,
+    text: 'The logo has a diamond jewellery effect – as you walk round the car the different facets sparkle.',
+    name: 'Simon Lamarre, Head of Exterior Design'
   },
   {
     type: image,
@@ -34,8 +47,8 @@ portfolio: [
   },
   {
     type: quote,
-    text: 'The logo has a diamond jewellery effect – as you walk round the car the different facets sparkle.',
-    name: 'Simon Lamarre, Head of Exterior Design'
+    text: 'Most people who joined us had no idea what to expect as they walked in the door.',
+    name: 'Stefan Rosén, Head of Advanced Design'
   },
   {
     type: image,
@@ -47,8 +60,8 @@ portfolio: [
   },
   {
     type: quote,
-    text: 'Most people who joined us had no idea what to expect as they walked in the door.',
-    name: 'Stefan Rosén, Head of Advanced Design'
+    text: 'Instead of having trim levels, we are building personas – sporty, luxury, hip, minimalistic.',
+    name: Andreas Nilsson
   },
   {
     type: image,
@@ -60,8 +73,8 @@ portfolio: [
   },
   {
     type: quote,
-    text: 'Instead of having trim levels, we are building personas – sporty, luxury, hip, minimalistic.',
-    name: Andreas Nilsson
+    text: 'It’s our responsibility to tell the design team what will be the trend in three or four years’ time.',
+    name: 'Jenny Deimer, Head of Design Color and Material'
   },
   {
     type: image,
@@ -73,8 +86,8 @@ portfolio: [
   },
   {
     type: quote,
-    text: 'It’s our responsibility to tell the design team what will be the trend in three or four years’ time.',
-    name: 'Jenny Deimer, Head of Design Color and Material'
+    text: 'We want to challenge the conventional relationship between the car and the human being.',
+    name: 'Lars Falk, Head of Interior Design'
   },
   {
     type: image,
@@ -83,11 +96,6 @@ portfolio: [
   {
     type: image,
     image: gallery/europe/gallery_europe_14.jpg
-  },
-  {
-    type: quote,
-    text: 'We want to challenge the conventional relationship between the car and the human being.',
-    name: 'Lars Falk, Head of Interior Design'
   },
   {
     type: image,

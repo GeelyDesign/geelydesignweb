@@ -13,11 +13,11 @@ standard:
 portfolio: [
   {
     type: image,
-    image: gallery/shanghai/gallery_shanghai_06.jpg
+    image: gallery/shanghai/gallery_shanghai_01.jpg
   },
   {
     type: image,
-    image: gallery/shanghai/gallery_shanghai_07.jpg
+    image: gallery/shanghai/gallery_shanghai_02.jpg
   },
   {
     type: quote,
@@ -26,11 +26,11 @@ portfolio: [
   },
   {
     type: image,
-    image: gallery/shanghai/gallery_shanghai_08.jpg
+    image: gallery/shanghai/gallery_shanghai_03.jpg
   },
   {
     type: image,
-    image: gallery/shanghai/gallery_shanghai_09.jpg
+    image: gallery/shanghai/gallery_shanghai_04.jpg
   },
   {
     type: quote,
@@ -39,16 +39,46 @@ portfolio: [
   },
   {
     type: image,
-    image: gallery/shanghai/gallery_shanghai_10.jpg
+    image: gallery/shanghai/gallery_shanghai_05.jpg
   },
   {
     type: image,
-    image: gallery/shanghai/gallery_shanghai_11.jpg
+    image: gallery/shanghai/gallery_shanghai_06.jpg
   },
   {
     type: quote,
     text: 'We went down many different paths exploring the vast wonderful history of this country.',
     name: 'Justin Scully, Interior Design Chief Geely Design China'
+  },
+  {
+    type: image,
+    image: gallery/shanghai/gallery_shanghai_07.jpg
+  },
+  {
+    type: image,
+    image: gallery/shanghai/gallery_shanghai_08.jpg
+  },
+  {
+    type: quote,
+    text: 'With the population that we’ve got it is an absolute necessity, and a brand pillar, to offer the luxury of choice.',
+    name: Danny Du 
+  },
+  {
+    type: image,
+    image: gallery/shanghai/gallery_shanghai_09.jpg
+  },
+  {
+    type: image,
+    image: gallery/shanghai/gallery_shanghai_10.jpg
+  },
+  {
+    type: quote,
+    text: 'We try to draw a lot from Chinese culture and bring it into the product with a feeling of restrained elegance, as well as a Chinese sense of flamboyance.',
+    name: Justin Scully 
+  },
+  {
+    type: image,
+    image: gallery/shanghai/gallery_shanghai_11.jpg
   },
   {
     type: image,
@@ -59,22 +89,12 @@ portfolio: [
     image: gallery/shanghai/gallery_shanghai_13.jpg
   },
   {
-    type: quote,
-    text: 'With the population that we’ve got it is an absolute necessity, and a brand pillar, to offer the luxury of choice.',
-    name: Danny Du 
-  },
-  {
     type: image,
     image: gallery/shanghai/gallery_shanghai_14.jpg
   },
   {
     type: image,
     image: gallery/shanghai/gallery_shanghai_15.jpg
-  },
-  {
-    type: quote,
-    text: 'We try to draw a lot from Chinese culture and bring it into the product with a feeling of restrained elegance, as well as a Chinese sense of flamboyance.',
-    name: Justin Scully 
   },
   {
     type: image,
