@@ -104,10 +104,6 @@ portfolio: [
   {
     type: image,
     image: gallery/europe/gallery_europe_16.jpg
-  },
-  {
-    type: image,
-    image: gallery/europe/gallery_europe_17.jpg
   }
 ]
 ---
