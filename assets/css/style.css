@@ -456,6 +456,7 @@ header .container-fluid {
     background-repeat: no-repeat, repeat, no-repeat;
     background-size: auto, auto, cover;
     padding-top: 28px;
+    height: 865px;
 }
 
 header.half .container-fluid {
