@@ -447,6 +447,10 @@ img {
 
 /* HEADER */
 
+header {
+    position: relative;
+}
+
 header.half {
     height: 380px;
 }
@@ -468,10 +472,12 @@ header.half .container-fluid {
 }
 
 header ul.menu {
-    float: right;
     margin: 0;
     overflow: hidden;
     padding: 0;
+    position: absolute;
+    right: 30px;
+    z-index: 99999;
 }
 
 header ul.menu > li {
@@ -512,6 +518,16 @@ header span.country {
     top: 200px;
 }
 
+header #back-to-home {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
 @media ( max-width: 768px ) {
     header .container-fluid {
         background-size: 75% auto, auto, cover;
@@ -530,6 +546,7 @@ header span.country {
         height: 100vh;
     }
     header ul.menu {
+        right: 0;
         width: 100%;
     }
     header ul.menu > li {

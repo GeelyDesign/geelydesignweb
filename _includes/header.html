@@ -30,4 +30,11 @@
     {% if page.lang != 'default' %}
     <span class="country">{{ page.subtitle }}</span>
     {% endif %}
+    {% if page.layout != 'default' %}
+        {% if page.lang == 'cn' %}
+        <a href="{{ site.siteurl }}/cn/" id="back-to-home"></a>
+        {% else %}
+        <a href="{{ site.siteurl }}" id="back-to-home"></a>
+        {% endif %}
+    {% endif %}
 </header>
