@@ -1,6 +1,7 @@
 ---
 layout: default
 lang: en
+title: Geely Design
 
 standard:
   image: grid/grid_01.jpg

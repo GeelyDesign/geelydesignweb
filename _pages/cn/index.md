@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: cn
-title: Hem
+title: Geely Design
 permalink: /cn/
 
 standard:
