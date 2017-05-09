@@ -456,9 +456,9 @@ header.half {
 }
 
 header .container-fluid {
-    background-position: center 40%, center, center;
-    background-repeat: no-repeat, repeat, no-repeat;
-    background-size: auto, auto, cover;
+    background-position: center, center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
     padding-top: 28px;
     height: 865px;
 }
@@ -530,10 +530,10 @@ header #back-to-home {
 
 @media ( max-width: 768px ) {
     header .container-fluid {
-        background-size: 75% auto, auto, cover;
+        background-size: auto, cover;
     }
     header.half .container-fluid {
-        background-size: 75% auto, auto, cover;
+        background-size: auto, cover;
     }
     header span.country {
         top: 170px;
