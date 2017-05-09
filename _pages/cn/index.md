@@ -5,55 +5,63 @@ title: Hem
 permalink: /cn/
 
 standard:
-  image: 7138.jpg
-  divider: 6938.jpg
-  title: Who we are
-  text: Geely Design is a multi-cultural global organization under the leadership of Peter Horbury with four well-equipped studios in Shanghai, Gothenburg, Barcelona and Los Angeles with some 450 people in total. These design centers, with top class design teams and the latest tools in design development, are responsible for the creation of a unique design language for each of Geely's brands.
+  image: grid/grid_01.jpg
+  title: 我们是谁?
+  text: 吉利设计（Geely Design）是在彼得·霍布里（Peter Horbury）先生领导下的一个多元化的国际性机构，在上海、哥德堡、巴塞罗那和加利福尼亚分别设有功能完备的四个设计中心，员工总数约为450人。四大设计中心拥有顶级的设计团队和先进的设计研发设备，负责为吉利的各个品牌车系精心打造独一无二的设计语言。
 
 blurbs:
-  image: 6938.jpg
-  title: Where we are
+  image: bg/bg_01.jpg
+  title: 我们在何处？
   box1:
     title: Shanghai
-    text: Shanghai is the beating heart for the Geely range where we are tapping into China’s 5,000 years of the visual arts to give our products a unique flavor in their detailing. Our team has established a studio and built a coherent brand identity at the same time as launching multiple products.
+    text: 上海设计工作室是吉利车系跳动的心脏，我们在此探索着中国5000年的视觉艺术，让我们的产品在细微之处彰显独特品味。我们的团队已经成立了一个设计中心，在发布多款产品的同时打造清晰连贯的品牌形象。
     btn:
-      text: view gallery
-      href: geely-design-shanghai
+      text: 浏览图集
+      href: cn/geely-design-china
   box2:
     title: Gothenburg
-    text: In the heart of Sweden’s automotive cluster Gothenburg, we have concentrated all our efforts in the creation of the new brand LYNK & CO and all of its coming products. LYNK & CO has made its mark by sophisticated design and an appreciation of the connected world we live in.  
+    text: 在瑞典汽车产业集群的中心哥德堡，我们正竭尽全力打造吉利家族的全新品牌领克（LYNK & CO）及其蓄势待发的产品。由于其精妙的设计和对我们所生活的互联世界的了解，领克已为人熟知。
     btn:
-      text: view gallery
-      href: geely-design-sweden
+      text: 浏览图集
+      href: cn/geely-design-europe
   box3:
     title: Barcelona & L.A.
-    text: Barcelona and Los Angeles are smaller “satellite studios” generating ideas for both our brands in two of the world’s most creative locations. The Barcelona team has also been responsible for designing the next London taxi, the TX5, giving an automotive icon a fresh yet different look.
+    text: 巴塞罗那和加利福尼亚是相对较小的“卫星型设计工作室”，在世界最有创意的地方为我们的两个品牌贡献奇思妙想。巴塞罗那团队还负责全新一代伦敦出租车TX5的设计，赋予这个标志性车型崭新的面貌。
     btn:
-      text: view gallery
-      href: geely-design-europe
+      text: 浏览图集
+      href: cn/geely-design-barcelona
 
 gallery:
-  title: What we do
-  text: In an inspiring studio environment we build, maintain and utilize a top-class design team – based on synergetic collaboration. With best in class processes and tools we challenge preconceptions and deliver design of premium brand offer to the customers.
+  title: 我们做什么？
+  text: 在这样一个极具启发性的工作环境中，我们借用协同合作的优势，打造、维护并运用一支顶尖的设计团队。我们在业界顶级的设计开发流程和设备的支持下，不断挑战先入之见，向客户交付高端品牌的设计。
   images: [
     {
-      image: 7004.jpg,
+      image: grid/grid_02.jpg,
       width: 2
     },
     {
-      image: 7953.jpg,
+      image: grid/grid_08.jpg,
       width: 2
     },
     {
-      image: 6938.jpg,
+      image: grid/grid_03.jpg,
+      width: 2
+    },
+    {
+      image: grid/grid_05.jpg,
       width: 1
     },
     {
-      image: 7138.jpg,
+      image: grid/grid_07.jpg,
       width: 1
-    }
+    },
+    {
+      image: grid/grid_06.jpg,
+      width: 1
+    },
+    {
+      image: grid/grid_04.jpg,
+      width: 2
+    },
   ]
-
-prefooter:
-  image: 7974.jpg
 ---

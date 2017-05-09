@@ -35,7 +35,7 @@ prefooter:
 footer:
   title:
     en: Keep in touch
-    cn: Kontakta oss
+    cn: 保持联系
 
   copy: 2017 Geely Design
 
@@ -54,7 +54,7 @@ footer:
     contact:
       text:
         en: say hi
-        cn: säg hej
+        cn: 和我们打个招呼吧
       href: info@geelydesign.com
     join:
       text:

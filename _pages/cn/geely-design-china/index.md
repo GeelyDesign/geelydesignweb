@@ -1,14 +1,14 @@
 ---
 layout: gallery
-lang: en
+lang: cn
 title: Geely Design China
-permalink: /geely-design-china/
+permalink: /cn/geely-design-china/
 
 subtitle: China
 
 standard:
   title: Geely Design China
-  text: China has spans of rich and diverse culture to be inspired by as Geely Auto develops as a proud Chinese brand. With over 30 ongoing projects our Geely Design China studio has grown to over 200 people.
+  text: 吉利汽车逐渐发展成为一个令人骄傲的中国品牌，而且中国有能激发我们灵感的丰富多样的文化。现有30多个项目正在进行中，我们吉利设计中国团队的员工也发展到200多人。
 
 portfolio: [
   {
@@ -21,8 +21,8 @@ portfolio: [
   },
   {
     type: quote,
-    text: 'One day I got a package containing a poem and a note from the translator saying it had been written by Chairman Li on his way home from Sweden to China, when he saw the moon through the window of the aeroplane. It’s pretty hard to imagine the people I worked for at Ford sending me poetry. It’s really fantastic to have that type of boss.',
-    name: 'Peter Horbury, Executive Vice President Geely Design'
+    text: '有一天，我收到一个包裹，里面有一首诗和翻译留给我的一个便条。便条中说这首诗是李书福董事长在从瑞典回中国的飞机上看到窗外的月亮有感而作。很难想象我之前工作的福特公司会有人给我写诗。有这样的老板真的非常棒。',
+    name: '彼得·霍布里，吉利设计执行副总裁'
   },
   {
     type: image,
@@ -34,8 +34,8 @@ portfolio: [
   },
   {
     type: quote,
-    text: 'We’re asking where our brand is heading, not just in the tangible aspects but the emotional aspects.',
-    name: 'Danny Du, Creative Director Geely Design China'
+    text: '我们不断地询问，我们的品牌将走向何处，这不仅是指切实可见的方面，更是情感方面',
+    name: 'Danny Du'
   },
   {
     type: image,
@@ -47,8 +47,8 @@ portfolio: [
   },
   {
     type: quote,
-    text: 'We went down many different paths exploring the vast wonderful history of this country.',
-    name: 'Justin Scully, Interior Design Chief Geely Design China'
+    text: '我们在这个国度悠久庞博历史的途中不断探索',
+    name: 'Justin Scully'
   },
   {
     type: image,
@@ -60,7 +60,7 @@ portfolio: [
   },
   {
     type: quote,
-    text: 'With the population that we’ve got it is an absolute necessity, and a brand pillar, to offer the luxury of choice.',
+    text: '鉴于这里的人口数量，我们绝对有必要提供奢华选项，而且这也是品牌支柱',
     name: 'Danny Du'
   },
   {
@@ -73,8 +73,8 @@ portfolio: [
   },
   {
     type: quote,
-    text: 'We try to draw a lot from Chinese culture and bring it into the product with a feeling of restrained elegance, as well as a Chinese sense of flamboyance.',
-    name: 'Justin Scully'
+    text: '我们努力汲取更多的中国文化因素，将其融合到我们的产品中',
+    name: Justin Scully 
   },
   {
     type: image,
