@@ -23,14 +23,14 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 
 header:
-  image: bg/landing_image.jpg
+  image: bg/bg_03.jpg
   logo: bg/gd-logo.svg
   menu:
     en: English
     cn: 中文
 
 prefooter:
-  image: bg/bg_03.jpg
+  image: bg/bg_02.jpg
 
 footer:
   title:
