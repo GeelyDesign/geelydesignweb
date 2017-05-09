@@ -59,7 +59,7 @@ footer:
     join:
       text:
         en: join us
-        cn: gå med
+        cn: 加入我们
       href: https://www.linkedin.com/company/geely-design-global
 
   box1:
@@ -99,11 +99,11 @@ footer:
       cn: Geely Design Barcelona
     address:
       street:
-        en: Diputacio 246
-        cn: Diputacio 246
+        en: Calle Diputacio 246
+        cn: Calle Diputacio 246
       zip:
-        en: 8007 Barcelona
-        cn: 8007 Barcelona
+        en: 08007 Barcelona
+        cn: 08007 Barcelona
       country:
         en: Spain
         cn: Spain

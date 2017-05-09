@@ -59,7 +59,7 @@ gallery:
       width: 1
     },
     {
-      image: grid/grid_04.jpg,
+      image: grid/grid_09.jpg,
       width: 2
     },
   ]
