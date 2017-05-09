@@ -25,7 +25,7 @@ blurbs:
       text: 浏览图集
       href: cn/geely-design-europe
   box3:
-    title: Barcelona & L.A.
+    title: Barcelona & California
     text: 巴塞罗那和加利福尼亚是相对较小的“卫星型设计工作室”，在世界最有创意的地方为我们的两个品牌贡献奇思妙想。巴塞罗那团队还负责全新一代伦敦出租车TX5的设计，赋予这个标志性车型崭新的面貌。
     btn:
       text: 浏览图集

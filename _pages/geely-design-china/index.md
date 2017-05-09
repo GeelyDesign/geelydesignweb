@@ -30,7 +30,7 @@ portfolio: [
   },
   {
     type: image,
-    image: gallery/shanghai/gallery_shanghai_04.jpg
+    image: gallery/shanghai/gallery_shanghai_17.jpg
   },
   {
     type: quote,
@@ -98,7 +98,7 @@ portfolio: [
   },
   {
     type: image,
-    image: gallery/shanghai/gallery_shanghai_16.jpg
+    image: gallery/shanghai/gallery_shanghai_18.jpg
   }
 ]
 ---

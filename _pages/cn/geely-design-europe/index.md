@@ -39,11 +39,11 @@ portfolio: [
   },
   {
     type: image,
-    image: gallery/europe/gallery_europe_05.jpg
+    image: gallery/europe/gallery_europe_17.jpg
   },
   {
     type: image,
-    image: gallery/europe/gallery_europe_06.jpg
+    image: gallery/europe/gallery_europe_18.jpg
   },
   {
     type: quote,
@@ -91,7 +91,7 @@ portfolio: [
   },
   {
     type: image,
-    image: gallery/europe/gallery_europe_13.jpg
+    image: gallery/europe/gallery_europe_19.jpg
   },
   {
     type: image,

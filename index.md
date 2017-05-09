@@ -24,7 +24,7 @@ blurbs:
       text: view gallery
       href: geely-design-europe
   box3:
-    title: Barcelona & L.A.
+    title: Barcelona & California
     text: Barcelona and Los Angeles are smaller “satellite studios” generating ideas for both our brands in two of the world’s most creative locations. The Barcelona team has also been responsible for designing the next London taxi, the TX5, giving an automotive icon a fresh yet different look.
     btn:
       text: view gallery
