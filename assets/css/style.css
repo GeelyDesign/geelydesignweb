@@ -464,9 +464,9 @@ header .container-fluid {
 }
 
 header.half .container-fluid {
-    background-position: center 140px, center, center;
+    background-position: center bottom 10%, center, center;
     background-repeat: no-repeat, repeat, no-repeat;
-    background-size: auto, auto, cover;
+    background-size: 30% auto, auto, cover;
     height: 100%;
     padding-top: 28px;
 }
@@ -545,6 +545,9 @@ header #back-to-home {
     header .container-fluid {
         background-size: 80% auto, auto, cover;
         height: 100vh;
+    }
+    header.half .container-fluid {
+        background-size: 80% auto, auto, cover;
     }
     header ul.menu {
         right: 0;
