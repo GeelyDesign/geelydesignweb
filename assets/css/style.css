@@ -456,9 +456,9 @@ header.half {
 }
 
 header .container-fluid {
-    background-position: bottom, center, center;
+    background-position: center bottom 10%, center, center;
     background-repeat: no-repeat, repeat, no-repeat;
-    background-size: auto, auto, cover;
+    background-size: 30% auto, auto, cover;
     padding-top: 28px;
     height: 865px;
 }
@@ -530,10 +530,10 @@ header #back-to-home {
 
 @media ( max-width: 768px ) {
     header .container-fluid {
-        background-size: auto, cover;
+        background-size: 50% auto, auto, cover;
     }
     header.half .container-fluid {
-        background-size: auto, cover;
+        background-size: 50% auto, auto, cover;
     }
     header span.country {
         top: 170px;
@@ -543,6 +543,7 @@ header #back-to-home {
 @media ( max-width: 480px ) {
     header,
     header .container-fluid {
+        background-size: 80% auto, auto, cover;
         height: 100vh;
     }
     header ul.menu {
