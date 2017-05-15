@@ -2,15 +2,15 @@
 
 ## Sid- och mappstruktur
 
-I rooten av sajten (där vi befinner oss just nu om du/ni läser det här), finns en fil som heter **index.md**; den här filen innehåller text och bild för den engelska startsidan. Det finns även en mapp som heter **_pages**, där resten av sidorna finns placerade i mappar. I respektive mapp finns en fil som också heter **index.md**, men som gäller för respektive sida.
+I rooten av sajten (där vi befinner oss just nu om du/ni läser det här), finns en fil som heter `index.md`; den här filen innehåller text och bild för den engelska startsidan. Det finns även en mapp som heter `_pages`, där resten av sidorna finns placerade i mappar. I respektive mapp finns en fil som också heter `index.md`, men som gäller för respektive sida.
 
-**index.md**-filerna är så kallade markdown-filer, som används för att generera ut text och bild på sajten.
+`index.md`-filerna är så kallade markdown-filer, som används för att generera ut text och bild på sajten.
 
 ## Hur man ändrar i index.md-filerna
 
 Tryck på filen i listan ovan för att komma till en ny vy. Leta upp ikonen som föreställer en penna i en ljusgrå bård. Tryck på pennan för att börja redigera filen.
 
-När man är inne och redigerar en fil så är det egentligen bara att leta upp rätt text och byta ut den. Det som kan vara lite bökigt är galleri-sektionerna. Om man vill byta ut en bild behöver man skriva in sökvägen till bilden samt filnamnet, exempelvis **gallery/min_bild.jpg**, där "gallery" är mappnamnet och "min_bild.jpg" är namnet på filen i den mappen. Man får alltså ha koll på vilken mapp man har lagt bilden i. Se nedan för hur man laddar upp nya bilder.
+När man är inne och redigerar en fil så är det egentligen bara att leta upp rätt text och byta ut den. Det som kan vara lite bökigt är galleri-sektionerna. Om man vill byta ut en bild behöver man skriva in sökvägen till bilden samt filnamnet, exempelvis `gallery/min_bild.jpg`, där "gallery" är mappnamnet och "min_bild.jpg" är namnet på filen i den mappen. Man får alltså ha koll på vilken mapp man har lagt bilden i. Se nedan för hur man laddar upp nya bilder.
 
 ### Hur man redigerar galleri-sektionerna
 
@@ -20,21 +20,21 @@ Galleri-sektionerna är något specifika, då dessa genereras ut med en så kall
 
 Galleriet på startsidan är uppbyggt så här på startsidan;
 
-`
+```
 gallery:
   images: [
     {
-      image: grid/grid_02.jpg,  <-- Sökvägen till första bilden
-      width: 2                  <-- Hur många kolumner första bilden ska täcka
+      image: grid/grid_02.jpg,   <-- Sökvägen till första bilden
+      width: 2                   <-- Hur många kolumner första bilden ska täcka
     },
     {
-      image: grid/grid_03.jpg,  <-- Sökvägen till andra bilden
-      width: 1                  <-- Hur många kolumner andra bilden ska täcka
+      image: grid/grid_03.jpg,   <-- Sökvägen till andra bilden
+      width: 1                   <-- Hur många kolumner andra bilden ska täcka
     }
   ]
-`
+```
 
-I exemplet ovan har vi lagt in två bilder; **grid_02.jpg** och **grid_03.jpg**. Båda bilderna finns i mappen **grid**, därför står det `grid/filnamnet` ovan. Den första bilden täcker halva området, dvs två kolumner. Detta bestäms av att det står `width: 2` under sökvägen till bilden.
+I exemplet ovan har vi lagt in två bilder; `grid_02.jpg` och `grid_03.jpg`. Båda bilderna finns i mappen **grid**, därför står det `grid/filnamnet` ovan. Den första bilden täcker halva området, dvs två kolumner. Detta bestäms av att det står `width: 2` under sökvägen till bilden.
 
 ### När du är klar
 
