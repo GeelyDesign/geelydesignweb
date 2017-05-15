@@ -24,7 +24,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
 header:
   image: bg/bg_04.jpg
-  logo: bg/gd-logo.svg
+  logo: bg/gd-logo-white.svg
   menu:
     en: English
     cn: 中文
