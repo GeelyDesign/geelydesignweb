@@ -10,7 +10,7 @@ I rooten av sajten (där vi befinner oss just nu om du/ni läser det här), finn
 
 Tryck på filen i listan ovan för att komma till en ny vy. Leta upp ikonen som föreställer en penna i en ljusgrå bård. Tryck på pennan för att börja redigera filen.
 
-När man är inne och redigerar en fil så är det egentligen bara att leta upp rätt text och byta ut den. Det som kan vara lite bökigt är galleri-sektionerna. Om man vill byta ut en bild behöver man skriva in sökvägen till bilden samt filnamnet, exempelvis `gallery/min_bild.jpg`, där "gallery" är mappnamnet och "min_bild.jpg" är namnet på filen i den mappen. Man får alltså ha koll på vilken mapp man har lagt bilden i. Se nedan för hur man laddar upp nya bilder.
+När man är inne och redigerar en fil så är det egentligen bara att leta upp rätt text och byta ut den. Det som kan vara lite bökigt är galleri-sektionerna. Om man vill byta ut en bild behöver man skriva in sökvägen till bilden samt filnamnet, exempelvis `gallery/min_bild.jpg`, där `gallery` är mappnamnet och `min_bild.jpg` är namnet på filen i den mappen. Man får alltså ha koll på vilken mapp man har lagt bilden i. Se nedan för hur man laddar upp nya bilder.
 
 ### Hur man redigerar galleri-sektionerna
 
@@ -34,7 +34,7 @@ gallery:
   ]
 ```
 
-I exemplet ovan har vi lagt in två bilder; `grid_02.jpg` och `grid_03.jpg`. Båda bilderna finns i mappen **grid**, därför står det `grid/filnamnet` ovan. Den första bilden täcker halva området, dvs två kolumner. Detta bestäms av att det står `width: 2` under sökvägen till bilden. Den andra bilden täcker endast en kolumn, då det står `width: 1` där.
+I exemplet ovan har vi lagt in två bilder; `grid_02.jpg` och `grid_03.jpg`. Båda bilderna finns i mappen `grid`, därför står det `grid/filnamnet` ovan. Den första bilden täcker halva området, dvs två kolumner. Detta bestäms av att det står `width: 2` under sökvägen till bilden. Den andra bilden täcker endast en kolumn, då det står `width: 1` där.
 
 För att lägga till en ny bild i galleriet behöver ni skriva in följande;
 
@@ -78,9 +78,9 @@ För att lägga till ett citat i galleriet behöver ni skriva in följande;
 
 ```
 {
-  type: quote,                  <-- Ange 'quote' då det ska vara ett citat
-  text: 'This is some text.',   <-- Ange själva citatet
-  name: 'John Doe'              <-- Namnet på personen som citeras
+  type: quote,                        <-- Ange 'quote' då det ska vara ett citat
+  text: 'Detta är mitt nya citat.',   <-- Ange själva citatet
+  name: 'John Doe'                    <-- Namnet på personen som citeras
 }
 ```
 
