@@ -8,7 +8,7 @@ subtitle: Barcelona
 
 standard:
   title: Geely Design Barcelona
-  text: 我们的巴塞罗那设计工作室正在打造全新一代伦敦出租车，既保持伦敦出租车的原始设计元素，又新增大量创意让该标志性车型换颜一新。
+  text: 我们的巴塞罗那设计工作室正在打造全新一代伦敦出租车。新设计既保留了伦敦出租车的经典元素，又新增了大量创意，让这个标志性车型焕然一新。
 
 portfolio: [
   {
