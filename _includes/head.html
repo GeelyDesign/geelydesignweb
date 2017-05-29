@@ -8,7 +8,7 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
   <meta property="og:description"  content="{{ page.excerpt | default: site.description[page.lang] | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
-  <meta property="og:image" content="{{ site.imageurl }}"/>
+  <meta property="og:image" content="{{ site.imageurl }}{{ site.header.logo }}"/>
 
   <link rel="stylesheet" href="{{ site.siteurl }}assets/css/theme.css">
   <link rel="stylesheet" href="{{ site.siteurl }}assets/css/style.css">
