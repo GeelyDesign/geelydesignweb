@@ -2,7 +2,7 @@
 
 ## Sid- och mappstruktur
 
-I rooten av sajten (där vi befinner oss just nu om du/ni läser det här), finns en fil som heter `index.md`; den här filen innehåller text och bild för den engelska startsidan. Det finns även en mapp som heter `_pages`, där resten av sidorna finns placerade i mappar. I respektive mapp finns en fil som också heter `index.md`, men som gäller för respektive sida.
+I roten av sajten (där vi befinner oss just nu om du/ni läser det här), finns en fil som heter `index.md`; den här filen innehåller text och bild för den engelska startsidan. Det finns även en mapp som heter `_pages`, där resten av sidorna finns placerade i mappar. I respektive mapp finns en fil som också heter `index.md`, men som gäller för respektive sida.
 
 `index.md`-filerna är så kallade markdown-filer, som används för att generera ut text och bild på sajten.
 
@@ -90,7 +90,7 @@ När du är klar, skriv en kort beskrivning av vad du har gjort, exempelvis "Tex
 
 ## Hur man lägger till bilder
 
-I rooten av sajten finns en mapp som heter **assets**. I den mappen finns ytterligare en mapp som heter **img**, och i den mappen finns alla bilder sorterade i ett nytt gäng mappar.
+I roten av sajten finns en mapp som heter **assets**. I den mappen finns ytterligare en mapp som heter **img**, och i den mappen finns alla bilder sorterade i ett nytt gäng mappar.
 
 * **bg** - Bakgrundsbilder, exempelvis till hero-ytan
 * **gallery** - Galleribilder, alla bilder till gallerisidorna
@@ -103,3 +103,52 @@ För att lägga till en ny bild, gå in i en mapp och tryck på "Upload files" u
 ### När du är klar
 
 När du är klar, skriv en kort beskrivning av vad du har gjort, exempelvis "Uploaded new images" i den stora textrutan. Kryssa i "Commit directly to the master branch" och tryck sedan på "Commit changes" (den stora gröna knappen). Klart!
+
+## Hur man ändrar generella saker på sajten
+
+I roten av sajten finns en fil som heter `_config.yml`. I denna fil finns mer globala inställningar för sajten, exempelvis adresser i sidfoten, text som visas vid delning på social media etc.
+
+### Sidhuvudet/hero-ytan
+
+För att ändra bilden i sidhuvudet/hero-ytan, leta upp `header` i `_config.yml`;
+
+```
+header:
+  image: bg/bg_04.jpg            <-- Sökvägen till hero-bilden
+```
+
+I exempel ovan ser ni att det står `image` under `header`. Här anger ni sökvägen till hero-bilden. Som ni ser ligger den bilden i mappen **bg**, som finns i **assets/img**.
+
+### Social media
+
+För att ändra länkarna till Facebook, WeChat och LinkedIn, leta upp `footer` i `_config.yml`;
+
+```
+footer:
+  social:
+    facebook: ''
+    linkedin: https://www.linkedin.com/company/geely-design-global
+    wechat: http://mp.weixin.qq.com/s/d56hYo3uYwQxJ1N5CGSz-A
+```
+
+I exemplet ovan ser vi att under `footer` finns `social`, och under den finns respektive social media. Här räcker det att klistra in rätt länk till rätt social media.
+
+## Hur man lägger till social media-ikoner på sajten
+
+I roten av sajten finns en mapp som heter `_includes`, och i den mappen finns en fil som heter `footer.html`. Längst ned i den filen finns följande kod;
+
+```
+<!--                                                       <!-- Här börjar kommentaren
+<li class="wechat">
+    <a href="{{ site.footer.social.wechat }}"></a>
+</li>                                                      Allting mellan dessa två tecken är
+<li class="facebook">                                      utkommenterat och syns inte på sajten
+    <a href="{{ site.footer.social.facebook }}"></a>
+</li>
+-->                                                        <!-- Här slutar kommentaren
+<li class="linkedin">
+    <a href="{{ site.footer.social.linkedin }}"></a>       <!-- LinkedIn syns på sajten
+</li>
+```
+
+I detta fallet är WeChat och Facebook utkommenterade då det står `<!--` och `-->` runt dessa. Här är det egentligen bara att placera dessa tecken runt de ikoner som **inte** ska synas. Länkarna för respektive social media ändrar ni som sagt i `_config-yml`, se exempel ovan.
