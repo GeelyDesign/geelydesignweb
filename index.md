@@ -32,7 +32,7 @@ blurbs:
 
 gallery:
   title: What we do
-  text: In an inspiring studio environment we build, maintain and utilize a top-class design team – based on synergetic collaboration. With best in class processes and tools we challenge preconceptions and deliver design of premium brand offer to the customers.
+  text: In an inspiring studio environment we build, maintain and utilize a top-class design team – based on synergetic collaboration. With best in class processes and tools we challenge preconceptions and deliver design of premium brand offer to our customers.
   images: [
     {
       image: grid/grid_02.jpg,
