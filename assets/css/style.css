@@ -544,7 +544,7 @@ header #back-to-home {
     header,
     header .container-fluid {
         background-size: 80% auto, auto, cover;
-        height: 430px;
+        height: 70vh;
     }
     header.half .container-fluid {
         background-size: 80% auto, auto, cover;
