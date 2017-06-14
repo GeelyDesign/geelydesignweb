@@ -6,7 +6,7 @@ title: Geely Design
 standard:
   image: grid/grid_01.jpg
   title: Who we are
-  text: Geely Design is a multi-cultural global organization under the leadership of Peter Horbury with four well-equipped studios in Shanghai, Gothenburg, Barcelona and Los Angeles with some 450 people in total. These design centers, with top class design teams and the latest tools in design development, are responsible for the creation of a unique design language for each of Geely's brands.
+  text: Geely Design is a multi-cultural global organization with four well-equipped studios in Shanghai, Gothenburg, Barcelona and Los Angeles, with total staff of approximately 500. These design studios, with top class design teams and the latest tools in design development, are responsible for the creation of a unique design language for each of Geely's brands; Geely, LYNK & CO and London Taxi.
 
 blurbs:
   image: bg/bg_01.jpg
