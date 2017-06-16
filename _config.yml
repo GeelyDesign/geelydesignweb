@@ -119,10 +119,8 @@ footer:
       cn: Geely Design California
     address:
       street:
-        en: 625 Fair Oaks Avenue 
-        Suite 175
-        cn: 625 Fair Oaks Avenue
-        Suite 175
+        en: 625 Fair Oaks Avenue, Suite 175
+        cn: 625 Fair Oaks Avenue, Suite 175
       zip:
         en: South Pasadena, California 9130
         cn: South Pasadena, California 9130
