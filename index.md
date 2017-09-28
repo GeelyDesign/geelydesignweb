@@ -6,7 +6,7 @@ title: Geely Design
 standard:
   image: grid/grid_01.jpg
   title: Who we are
-  text: Geely Design is a multi-cultural global organization with four well-equipped studios in Shanghai, Gothenburg, Barcelona and Los Angeles, with total staff of approximately 500. These design studios, with top class design teams and the latest tools in design development, are responsible for the creation of a unique design language for each of Geely's brands; Geely, LYNK & CO and London Taxi.
+  text: Geely Design is a multi-cultural global organization with four well-equipped studios in Shanghai, Gothenburg, Barcelona and Los Angeles, with total staff of approximately 500. These design studios, with top class design teams and the latest tools in design development, are responsible for the creation of a unique design language for each of Geely's brands; Geely, Lynk & Co and London Taxi.
 
 blurbs:
   image: bg/bg_01.jpg
@@ -19,7 +19,7 @@ blurbs:
       href: geely-design-china
   box2:
     title: Gothenburg
-    text: In the heart of Sweden’s automotive cluster Gothenburg, we have concentrated all our efforts in the creation of the new brand in the Geely family, LYNK & CO, and all of its coming products. LYNK & CO has made its mark by sophisticated design and an appreciation of the connected world we live in.  
+    text: In the heart of Sweden’s automotive cluster Gothenburg, we have concentrated all our efforts in the creation of the new brand in the Geely family, Lynk & Co, and all of its coming products. LYNK & CO has made its mark by sophisticated design and an appreciation of the connected world we live in.  
     btn:
       text: view gallery
       href: geely-design-europe
