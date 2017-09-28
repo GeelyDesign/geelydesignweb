@@ -8,7 +8,7 @@ subtitle: Europe
 
 standard:
   title: Geely Design Europe
-  text: The fast development of our Gothenburg studio happened together with the launch of LYNK & CO. A new brand that is tailored to young, urban, tech-savvy customers. Today we are more than 200 people who work with coming LYNK & CO products.
+  text: The fast development of our Gothenburg studio happened together with the launch of Lynk & Co. A new brand that is tailored to young, urban, tech-savvy customers. Today we are more than 200 people who work with coming Lynk & Co products.
 
 portfolio: [
   {
@@ -22,7 +22,7 @@ portfolio: [
   {
     type: quote,
     text: 'We prefer to see competition between ideas rather than people.',
-    name: 'Andreas Nilsson, Head of Design for LYNK & CO'
+    name: 'Andreas Nilsson, Head of Design for Lynk & Co'
   },
   {
     type: image,
