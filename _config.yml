@@ -50,10 +50,16 @@ footer:
       en: Geely Group
       cn: Geely Group
     href: http://www.geelyholding.com
+    
+    name:
+    text:
+      en: Privacy Policy
+      cn: Privacy Policy
+    href: https://brandwork-assets.s3.amazonaws.com/CEVT%20Privacy%20Policy%201.0.pdf
 
   social: 
     linkedin: https://www.linkedin.com/company/geely-design-global
-    Privacy Policy: https://brandwork-assets.s3.amazonaws.com/CEVT%20Privacy%20Policy%201.0.pdf
+    
 
   btn:
     contact:
